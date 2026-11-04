@@ -2,22 +2,24 @@
 import Base from '../layouts/Base.astro';
 import books from '../data/books.json';
 
-type Book = { id: string; title: string; author: string; cover: string; finished: string; rating?: number; url?: string };
-const all = (books as Book[]).filter((b) => b.finished).sort((a, b) => b.finished.localeCompare(a.finished));
+type Book = { id: number; title: string; author: string; cover: string; finished: string | null; rating: number | null; review: string | null; url: string | null };
+const all = (books as Book[]).sort((a, b) => (b.finished || '').localeCompare(a.finished || ''));
 const byYear = new Map<string, Book[]>();
 for (const b of all) {
-  const y = b.finished.slice(0, 4);
+  const y = b.finished ? b.finished.slice(0, 4) : 'Earlier';
   if (!byYear.has(y)) byYear.set(y, []);
   byYear.get(y)!.push(b);
 }
 const years = [...byYear.keys()];
-const stars = (n?: number) => (n ? '★'.repeat(n) + '☆'.repeat(5 - n) : '');
-const fmt = (d: string) => new Date(d + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+const dated = years.filter((y) => y !== 'Earlier').length;
+const stars = (n: number | null) => (n ? '★'.repeat(n) + '☆'.repeat(5 - n) : '');
+const fmt = (d: string | null) => d ? new Date(d + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
 ---
 <Base title="Books" description="Books I've finished, by year.">
   <h1>Books</h1>
   <p class="meta">
-    Everything I've finished, most recent first. {all.length} books across {years.length} years.
+    Everything I've finished, most recent first: {all.length} books over {dated} years.
+    Synced from my Readwise library; ratings are out of five.
   </p>
 
   <div class="toggle" role="group" aria-label="View">
@@ -28,10 +30,11 @@ const fmt = (d: string) => new Date(d + 'T00:00:00').toLocaleDateString('en-US',
   {years.map((y) => (
     <section class="year">
       <h2 id={`y${y}`}>{y} <span class="meta">· {byYear.get(y)!.length}</span></h2>
+      {y === 'Earlier' && <p class="meta">Read before I started keeping dates.</p>}
 
       <div class="grid">
         {byYear.get(y)!.map((b) => (
-          <a class="cover" href={b.url || undefined} title={`${b.title} — ${b.author}`}>
+          <a class="cover" href={b.url || undefined} title={`${b.title} — ${b.author}${b.rating ? ' · ' + stars(b.rating) : ''}`}>
             {b.cover ? <img src={b.cover} alt={b.title} loading="lazy" /> : <span class="nocover">{b.title}</span>}
           </a>
         ))}
@@ -45,6 +48,7 @@ const fmt = (d: string) => new Date(d + 'T00:00:00').toLocaleDateString('en-US',
               {b.url ? <a href={b.url}>{b.title}</a> : <em>{b.title}</em>}
               <span class="meta"> — {b.author}</span>
               {b.rating && <span class="meta stars"> {stars(b.rating)}</span>}
+              {b.review && <details class="review"><summary class="meta">review</summary><p>{b.review}</p></details>}
             </span>
           </li>
         ))}
@@ -68,6 +72,9 @@ const fmt = (d: string) => new Date(d + 'T00:00:00').toLocaleDateString('en-US',
   .list { list-style: none; padding: 0; margin: 0; }
   .list li { display: grid; grid-template-columns: 4.5rem 1fr; gap: 0.75rem; padding: 0.3rem 0; }
   .stars { letter-spacing: 0.05em; }
+  .review { margin-top: 0.15rem; font-size: 0.92rem; }
+  .review summary { cursor: pointer; }
+  .review p { margin: 0.3rem 0 0.4rem; }
 
   body[data-view="list"] .grid { display: none; }
   body:not([data-view="list"]) .list { display: none; }

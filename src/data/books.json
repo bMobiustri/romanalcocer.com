@@ -1,20 +1,1832 @@
 [
   {
-    "id": "sample-1",
-    "title": "Sample Book One",
-    "author": "A. Writer",
-    "cover": "",
-    "finished": "2026-03-14",
+    "id": 5139776,
+    "title": "Paris in Ruins",
+    "author": "Sebastian Smee",
+    "cover": "https://bookwise.com/product/cover/577209404978831663/paris-in-ruins-the-siege-the-commune-and-the-birth-of-impressionism-sebastian-smee?w=320",
+    "finished": "2026-10-31",
     "rating": 5,
-    "url": ""
+    "review": "Informative, entertaining. Fascinating to follow a historical event through multiple perspectives (art history, military history, socio-cultural, relational narrative)",
+    "url": "https://readwise.io/books/9780861542703/"
   },
   {
-    "id": "sample-2",
-    "title": "Sample Book Two",
-    "author": "B. Writer",
-    "cover": "",
-    "finished": "2025-11-02",
+    "id": 3555363,
+    "title": "Red Rising",
+    "author": "Pierce Brown",
+    "cover": "https://covers.openlibrary.org/b/id/7316188-M.jpg",
+    "finished": "2026-10-07",
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555364,
+    "title": "Lincoln's Virtues: An Ethical Biography",
+    "author": "William Lee Miller",
+    "cover": "https://covers.openlibrary.org/b/id/225468-M.jpg",
+    "finished": "2026-09-28",
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555368,
+    "title": "Theo of Golden",
+    "author": "Allen Levi",
+    "cover": "https://bookwise.com/product/cover/577209405785525496/theo-of-golden-a-novel-allen-levi?w=320",
+    "finished": "2026-09-16",
+    "rating": 2,
+    "review": null,
+    "url": "https://readwise.io/books/9781668236536/"
+  },
+  {
+    "id": 3555396,
+    "title": "Odyssey",
+    "author": "Homer",
+    "cover": "https://bookwise.com/product/cover/576540901441235715/odyssey-homer-and-homer?w=320",
+    "finished": "2026-09-04",
+    "rating": 3,
+    "review": null,
+    "url": "https://readwise.io/books/9780393634563/"
+  },
+  {
+    "id": 3555384,
+    "title": "Opening the Hand of Thought",
+    "author": "Kosho Uchiyama Roshi",
+    "cover": "https://bookwise.com/product/cover/577209404979008738/opening-the-hand-of-thought-foundations-of-zen-buddhist-practice-kosho-uchiyama-roshi?w=320",
+    "finished": "2026-08-16",
+    "rating": 3,
+    "review": null,
+    "url": "https://readwise.io/books/9780861719778/"
+  },
+  {
+    "id": 3555395,
+    "title": "Fifty Degrees Below",
+    "author": "Kim Stanley Robinson",
+    "cover": "https://covers.openlibrary.org/b/id/7247322-M.jpg",
+    "finished": "2026-08-09",
     "rating": 4,
-    "url": ""
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555405,
+    "title": "Forty Signs of Rain",
+    "author": "Kim Stanley Robinson",
+    "cover": "https://bookwise.com/product/cover/579250098252339386/forty-signs-of-rain-kim-stanley-robinson?w=320",
+    "finished": "2026-07-05",
+    "rating": 3,
+    "review": null,
+    "url": "https://readwise.io/books/9780553898170/"
+  },
+  {
+    "id": 3555876,
+    "title": "On the Calculation of Volume",
+    "author": "Solvej Balle",
+    "cover": "https://bookwise.com/product/cover/576540901858838412/on-the-calculation-of-volume-book-i-shortlisted-for-the-2025-international-booker-prize-solvej-balle?w=320",
+    "finished": "2026-06-05",
+    "rating": 5,
+    "review": null,
+    "url": "https://readwise.io/books/9780811237260/"
+  },
+  {
+    "id": 3555408,
+    "title": "Norwegian Wood",
+    "author": "Haruki Murakami",
+    "cover": "https://covers.openlibrary.org/b/id/2237620-M.jpg",
+    "finished": "2026-05-25",
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555419,
+    "title": "A World Appears",
+    "author": "Michael Pollan",
+    "cover": "https://bookwise.com/product/cover/579250099683323220/a-world-appears-a-journey-into-consciousness-michael-pollan?w=320",
+    "finished": "2026-05-06",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9781984882004/"
+  },
+  {
+    "id": 3555423,
+    "title": "Korea: A Very Short Introduction",
+    "author": "Michael J. Seth",
+    "cover": "https://covers.openlibrary.org/b/id/470933-M.jpg",
+    "finished": "2026-05-03",
+    "rating": 5,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555414,
+    "title": "The Squat Bible: The Ultimate Guide to Mastering the Squat and Finding Your True Strength",
+    "author": "Aaron Horschig, Kevin Sonthana, Travis Neff",
+    "cover": "https://covers.openlibrary.org/b/id/10371491-M.jpg",
+    "finished": "2026-04-25",
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555412,
+    "title": "The Power of Ritual",
+    "author": "Casper ter Kuile",
+    "cover": "https://bookwise.com/product/cover/576927929203460370/the-power-of-ritual-turning-everyday-activities-into-soulful-practices-casper-ter-kuile?w=320",
+    "finished": "2026-04-07",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780062882066/"
+  },
+  {
+    "id": 3555416,
+    "title": "The Intellectual Life: Its Spirit, Conditions, Methods",
+    "author": "Antonin Sertillanges",
+    "cover": "https://covers.openlibrary.org/b/id/607514-M.jpg",
+    "finished": "2026-03-06",
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555471,
+    "title": "Becoming a Supple Leopard, 1st Edition: The Ultimate Guide To Resolving Pain Preventing Injury And Opti",
+    "author": "Kelly Starrett",
+    "cover": "",
+    "finished": "2026-03-02",
+    "rating": 3,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555411,
+    "title": "Bossy Pants",
+    "author": "Tina Fey",
+    "cover": "",
+    "finished": "2026-02-20",
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555469,
+    "title": "Built From Broken: A Science-Based Guide to Healing Painful Joints, Preventing Injuries, and Rebuilding Your Body",
+    "author": "Scott H Hogan",
+    "cover": "https://bookwise.com/product/cover/579144563475485771/none-none?w=320",
+    "finished": "2026-02-14",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9798893311051/"
+  },
+  {
+    "id": 3555491,
+    "title": "Galileo's Dream",
+    "author": "Kim Stanley Robinson",
+    "cover": "https://covers.openlibrary.org/b/id/6675583-M.jpg",
+    "finished": "2026-02-11",
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555466,
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "cover": "https://bookwise.com/product/cover/576963114968253796/deep-work-rules-for-focused-success-in-a-distracted-world-cal-newport?w=320",
+    "finished": "2026-02-11",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9781455586660/"
+  },
+  {
+    "id": 3555473,
+    "title": "Looking After Your Books",
+    "author": "Francesca Galligan",
+    "cover": "",
+    "finished": "2026-01-22",
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555484,
+    "title": "Chop Wood, Carry Water: The Yoga of Work",
+    "author": "Andrew Taggart",
+    "cover": "https://bookwise.com/product/cover/579144563575740927/none-none?w=320",
+    "finished": "2026-01-04",
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9798993566207/"
+  },
+  {
+    "id": 3555505,
+    "title": "Indistractable, Updated Edition",
+    "author": "Nir Eyal",
+    "cover": "https://bookwise.com/product/cover/577209405755036794/indistractable-updated-edition-how-to-control-your-attention-and-choose-your-life-nir-eyal?w=320",
+    "finished": "2025-12-21",
+    "rating": 3,
+    "review": null,
+    "url": "https://readwise.io/books/9781637747834/"
+  },
+  {
+    "id": 3555817,
+    "title": "Say What You Mean",
+    "author": "Oren Sofer",
+    "cover": "https://bookwise.com/product/cover/579250098533283111/say-what-you-mean-a-mindful-approach-to-nonviolent-communication-oren-sofer?w=320",
+    "finished": "2025-12-17",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780834841895/"
+  },
+  {
+    "id": 3555507,
+    "title": "Now Is Not the Time to Panic",
+    "author": "Kevin Wilson",
+    "cover": "https://bookwise.com/product/cover/576927929203491828/now-is-not-the-time-to-panic-a-novel-kevin-wilson?w=320",
+    "finished": "2025-12-16",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780062913524/"
+  },
+  {
+    "id": 3555807,
+    "title": "The Picture of Dorian Gray",
+    "author": "John Osborne Oscar Wilde",
+    "cover": "https://bookwise.com/product/cover/576681640385393296/the-picture-of-dorian-gray-oscar-wilde-and-john-osborne?w=320",
+    "finished": "2025-12-14",
+    "rating": 3,
+    "review": null,
+    "url": "https://readwise.io/books/9781849436816/"
+  },
+  {
+    "id": 3555792,
+    "title": "Lao Tzu: Tao Te Ching",
+    "author": "Ursula K. Le Guin",
+    "cover": "https://bookwise.com/product/cover/577174220580024766/lao-tzu-tao-te-ching-a-book-about-the-way-and-the-power-of-the-way-ursula-k-le-guin-and-ursula-k-le-guin?w=320",
+    "finished": "2025-12-11",
+    "rating": 5,
+    "review": null,
+    "url": "https://readwise.io/books/9780834824638/"
+  },
+  {
+    "id": 3555508,
+    "title": "Abundance",
+    "author": "Derek Thompson Ezra Klein",
+    "cover": "https://bookwise.com/product/cover/577209405785312461/abundance-ezra-klein-and-derek-thompson?w=320",
+    "finished": "2025-12-10",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9781668023501/"
+  },
+  {
+    "id": 3555813,
+    "title": "The Best Short Stories 2025",
+    "author": "Edward P. Jones",
+    "cover": "https://bookwise.com/product/cover/579250098292130855/the-best-short-stories-2025-the-o-henry-prize-winners?w=320",
+    "finished": "2025-12-07",
+    "rating": 5,
+    "review": null,
+    "url": "https://readwise.io/books/9780593689639/"
+  },
+  {
+    "id": 3555797,
+    "title": "The Art of Spending Money: Simple Choices for a Richer Life",
+    "author": "Morgan Housel",
+    "cover": "https://bookwise.com/product/cover/579144545175891352/the-art-of-spending-money-simple-choices-for-a-richer-life-none?w=320",
+    "finished": "2025-11-25",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780593716632/"
+  },
+  {
+    "id": 3555822,
+    "title": "Shaman",
+    "author": "Kim Stanley Robinson",
+    "cover": "https://bookwise.com/product/cover/576892745084725042/shaman-kim-stanley-robinson?w=320",
+    "finished": "2025-11-18",
+    "rating": 5,
+    "review": null,
+    "url": "https://readwise.io/books/9780316235570/"
+  },
+  {
+    "id": 3555829,
+    "title": "The Library Book",
+    "author": "Susan Orlean",
+    "cover": "https://bookwise.com/product/cover/577209405594029161/library-book-susan-orlean?w=320",
+    "finished": "2025-10-10",
+    "rating": 5,
+    "review": null,
+    "url": "https://readwise.io/books/9781476740201/"
+  },
+  {
+    "id": 3555831,
+    "title": "Tiny Experiments",
+    "author": "Anne-Laure Le Cunff",
+    "cover": "https://bookwise.com/product/cover/577174220338915275/tiny-experiments-how-to-live-freely-in-a-goal-obsessed-world-anne-laure-le-cunff?w=320",
+    "finished": "2025-08-27",
+    "rating": 2,
+    "review": null,
+    "url": "https://readwise.io/books/9780593715147/"
+  },
+  {
+    "id": 3555834,
+    "title": "The Bullet Journal Method",
+    "author": "Ryder Carroll",
+    "cover": "https://bookwise.com/product/cover/577174220270733472/the-bullet-journal-method-track-the-past-order-the-present-design-the-future-ryder-carroll?w=320",
+    "finished": "2025-08-11",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780525533344/"
+  },
+  {
+    "id": 3555847,
+    "title": "A Moveable Feast",
+    "author": "Ernest Hemingway",
+    "cover": "https://covers.openlibrary.org/b/id/7268728-M.jpg",
+    "finished": "2025-07-28",
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555862,
+    "title": "Neuromancer",
+    "author": "William Gibson",
+    "cover": "https://covers.openlibrary.org/b/id/283860-M.jpg",
+    "finished": "2025-07-10",
+    "rating": 3,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555858,
+    "title": "Free Will",
+    "author": "Sam Harris",
+    "cover": "https://bookwise.com/product/cover/577244589941061271/free-will-sam-harris?w=320",
+    "finished": "2025-06-02",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9781451683479/"
+  },
+  {
+    "id": 3555869,
+    "title": "At the Existentialist Café",
+    "author": "Sarah Bakewell",
+    "cover": "https://bookwise.com/product/cover/577174221335715022/at-the-existentialist-cafe-freedom-being-and-apricot-cocktails-with-jean-paul-sartre-simone-de-beauvoiralbert-camus-martin-heidegger-maurice-merleau-ponty-and-others-sarah-bakewell?w=320",
+    "finished": "2025-05-29",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9781590514894/"
+  },
+  {
+    "id": 3555866,
+    "title": "Joie",
+    "author": "Ajiri Aki",
+    "cover": "https://bookwise.com/product/cover/579250098291677797/joie-a-parisians-guide-to-celebrating-the-good-life-ajiri-aki?w=320",
+    "finished": "2025-05-24",
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9780593236581/"
+  },
+  {
+    "id": 3555950,
+    "title": "Meditations for Mortals",
+    "author": "Oliver Burkeman",
+    "cover": "https://bookwise.com/product/cover/577033482631456809/meditations-for-mortals-four-weeks-to-embrace-your-limitations-and-make-time-for-what-counts-oliver-burkeman?w=320",
+    "finished": "2025-04-22",
+    "rating": 3,
+    "review": null,
+    "url": "https://readwise.io/books/9780374612009/"
+  },
+  {
+    "id": 3555891,
+    "title": "Rejection",
+    "author": "Tony Tulathimutte",
+    "cover": "https://bookwise.com/product/cover/576927929203916197/rejection-fiction-tony-tulathimutte?w=320",
+    "finished": "2025-04-13",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780063337893/"
+  },
+  {
+    "id": 3555912,
+    "title": "Siddartha",
+    "author": "Hermann Hesse",
+    "cover": "https://covers.openlibrary.org/b/id/12043932-M.jpg",
+    "finished": "2024-11-28",
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555917,
+    "title": "Barbarian Days",
+    "author": "William Finnegan",
+    "cover": "https://bookwise.com/product/cover/579250098396604960/barbarian-days-a-surfing-life-pulitzer-prize-winner-william-finnegan?w=320",
+    "finished": "2024-11-19",
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9780698163744/"
+  },
+  {
+    "id": 3555923,
+    "title": "A River Runs Through It and Other Stories",
+    "author": "Norman Maclean",
+    "cover": "https://covers.openlibrary.org/b/id/10710412-M.jpg",
+    "finished": "2024-10-15",
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555928,
+    "title": "The Way of Kings",
+    "author": "Brandon Sanderson",
+    "cover": "https://covers.openlibrary.org/b/id/14658316-M.jpg",
+    "finished": "2024-10-10",
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555930,
+    "title": "Hella Town",
+    "author": "Mitchell Schwarzer",
+    "cover": "https://bookwise.com/product/cover/576540901567982283/hella-town-oaklands-history-of-development-and-disruption-mitchell-schwarzer?w=320",
+    "finished": "2024-10-08",
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9780520381131/"
+  },
+  {
+    "id": 3555936,
+    "title": "Dubliners",
+    "author": "James Joyce",
+    "cover": "https://covers.openlibrary.org/b/id/8216412-M.jpg",
+    "finished": "2024-10-07",
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555940,
+    "title": "It",
+    "author": "Stephen King",
+    "cover": "https://covers.openlibrary.org/b/id/8569284-M.jpg",
+    "finished": "2024-08-25",
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556077,
+    "title": "Slow Productivity",
+    "author": "Cal Newport",
+    "cover": "https://bookwise.com/product/cover/579250098291986076/slow-productivity-the-lost-art-of-accomplishment-without-burnout-cal-newport?w=320",
+    "finished": "2024-08-04",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780593544860/"
+  },
+  {
+    "id": 3556072,
+    "title": "Moonbound",
+    "author": "Robin Sloan",
+    "cover": "https://bookwise.com/product/cover/577033482631455416/moonbound-a-novel-robin-sloan?w=320",
+    "finished": "2024-07-26",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780374610616/"
+  },
+  {
+    "id": 3555994,
+    "title": "What I Talk About When I Talk About Running",
+    "author": "Haruki Murakami",
+    "cover": "https://covers.openlibrary.org/b/id/13185830-M.jpg",
+    "finished": "2024-07-11",
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555859,
+    "title": "The Art of Happiness at Work",
+    "author": "Dalai Lama XIV",
+    "cover": "https://covers.openlibrary.org/b/id/480585-M.jpg",
+    "finished": "2024-07-11",
+    "rating": 2,
+    "review": "Recommended By: Saw it on a library shelf in the spiritual section, intrigued by the title.\n\n5-ish Sentence Summary: Lots of people are dissatisfied by work. Nearly everyone works, and it's a complex topic that is wrapped up in money, interacting with others, identity, ethics, and how we spend our time. Psychiatrist Howard Cutler interviews the Dalai Lama on these topics and intersperses it with his own thoughts, stories, and references. Everything is nuanced, try to be kind.\n\nRoman's Take: I'm not so sure what I wanted out of this book, but it wasn't really.. this. Cutler's writing is cliche, his anecdotes weren't well-integrated, and his ideas felt unfinished. I enjoyed reading the Dalai Lama's thoughts, but I had to wade through a lot of this book to get a few nuggets. Zero for two this year for me on transcribed/edited interviews as books.\n\nRecommended For: I'm not sure I'd recommend it to anyone? For philosophy at work, maybe check out Oliver Burkeman. For learning about Buddhism, I'd instead recommend Bhante Gunaratana (accessible), Bhikku Bodhi (technical), Jack Kornfield or Sharon Salzberg (Western) or Jon Kabat-Zinn (secular.",
+    "url": null
+  },
+  {
+    "id": 3556005,
+    "title": "Supercommunicators",
+    "author": "Charles Duhigg",
+    "cover": "https://bookwise.com/product/cover/577174220338444058/supercommunicators-how-to-unlock-the-secret-language-of-connection-charles-duhigg?w=320",
+    "finished": "2024-06-19",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780593243930/"
+  },
+  {
+    "id": 3556210,
+    "title": "Built to Move",
+    "author": "Juliet Starrett Kelly Starrett",
+    "cover": "https://bookwise.com/product/cover/579250098291976032/built-to-move-the-ten-essential-habits-to-help-you-move-freely-and-live-fully-kelly-starrett-and-juliet-starrett?w=320",
+    "finished": "2024-06-04",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780593534816/"
+  },
+  {
+    "id": 3556051,
+    "title": "Babel",
+    "author": "R. F. Kuang",
+    "cover": "https://bookwise.com/product/cover/576927929203599744/babel-or-the-necessity-of-violence-an-arcane-history-of-the-oxford-translators-revolution-r-f-kuang?w=320",
+    "finished": "2024-05-23",
+    "rating": 5,
+    "review": null,
+    "url": "https://readwise.io/books/9780063021440/"
+  },
+  {
+    "id": 3556069,
+    "title": "King: A Life",
+    "author": "Jonathan Eig",
+    "cover": "https://bookwise.com/product/cover/577033482631564478/king-a-life-jonathan-eig?w=320",
+    "finished": "2024-05-12",
+    "rating": 5,
+    "review": null,
+    "url": "https://readwise.io/books/9780374719678/"
+  },
+  {
+    "id": 3556045,
+    "title": "Co-Intelligence",
+    "author": "Ethan Mollick",
+    "cover": "https://bookwise.com/product/cover/579250098292157940/co-intelligence-living-and-working-with-ai-ethan-mollick?w=320",
+    "finished": "2024-04-22",
+    "rating": 3,
+    "review": null,
+    "url": "https://readwise.io/books/9780593716724/"
+  },
+  {
+    "id": 3555863,
+    "title": "The Power of Myth",
+    "author": "Bill Moyers Joseph Campbell",
+    "cover": "https://bookwise.com/product/cover/579250098006235943/the-power-of-myth-joseph-campbell-and-bill-moyers?w=320",
+    "finished": "2024-04-15",
+    "rating": 4,
+    "review": "Recommended By: Saw it at a book sale/Popular read. Was looking to read something to integrate ideas around ritual/ceremony and meaning in the face of abundant information.\n\n5-ish Sentence Summary: A transcribed extended interview with Joseph Campbell on the history of myths and rituals in various human societies. Myths and rituals help us understand what it means to be human, what is means to be an adult, what it means to live in a society (at large or in particular). We've lost some myths in the modern era, and their replacements don't necessarily do a good job of serving those purposes. The hero's journey (struggle, transformation) is a myth across all societies. Myths are always about the metaphor and what they mean to our own lives\n\nRoman's Take: This book started out amazing, striking, profound. And then a little bit redundant, unfounded, and somewhat -phobic. I think this could have read better if it was not a transcription of an interview because I kept reading Campbell as arrogant while interrupting or disregarding Moyers, but I'm sure it felt different in live dialogue. I really appreciate Campbell's wide knowledge however, he's certainly a prime example of a Generalist at work. 2.5-stars for most of the book but 5-stars for the first third.\n\nRecommended For: A survey of different ancient cultures. A refutation or counterbalance to today's frenetic knowledge management. Not recommended if the topic doesn't already interest you from the get-go, there's probably better works out there for an introduction.",
+    "url": "https://readwise.io/books/9780307794727/"
+  },
+  {
+    "id": 3556194,
+    "title": "The Killing Moon",
+    "author": "N.K. Jemisin",
+    "cover": "https://covers.openlibrary.org/b/id/7554263-M.jpg",
+    "finished": "2024-04-13",
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556142,
+    "title": "Waking Up: A Guide to Spirituality Without Religion",
+    "author": "Sam Harris",
+    "cover": "https://covers.openlibrary.org/b/id/7311247-M.jpg",
+    "finished": "2024-03-13",
+    "rating": 3,
+    "review": "5-ish Sentence Summary\nThe human mind transcends all possible attempts to understand it. Sam Harris has done a lot of spiritual work. The field of neuroscience is still new and unfolding. Drugs can be pretty great. Religions can be pretty damaging.\n\nMy Take\nSome people don't appreciate The Beatles when they first hear them, because they sound like so many other bands today. What's underappreciated is that The Beatles were often the first to innovate those sounds, and that the other great bands were simply inspired by the songs of the Beatles. I feel like that's my situation with this book. Meditation, psychedelics, and spirituality without religion are all well-covered topics that have each gone through their own media cycle in popular culture by the time of my reading in 2024. But I suspect some of this was new territory for more people in 2014. So when one of my favorite literary bloggers, Maria Popova, blurbed the cover with \"an extraordinary and ambitious masterwork\", I hope that I'm just the kid that likes Tame Impala and doesn't think Sgt. Pepper's is anything new.\n\nRecommended For:\n- An introduction to meditation\n- Ideas on secular uses of psychedelics for spirituality",
+    "url": null
+  },
+  {
+    "id": 3556120,
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "cover": "https://bookwise.com/product/cover/577033483114042496/the-psychology-of-money-timeless-lessons-on-wealth-greed-and-happiness-morgan-housel?w=320",
+    "finished": "2024-02-19",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780857197696/"
+  },
+  {
+    "id": 3556074,
+    "title": "Buddhist Ethics: A Very Short Introduction",
+    "author": "Damien Keown",
+    "cover": "https://covers.openlibrary.org/b/id/117986-M.jpg",
+    "finished": "2024-02-17",
+    "rating": 4,
+    "review": "Great book that assumes understanding of the introductory Buddhist concepts (four noble truths, eight-fold path) so it can focuses on applying them to modern ethical questions. Interesting sections on animal rights, lgbtqia+, euthanasia, and war. Helpful in remembering that Buddhism is comprised of humans, and human's aren't perfect, and there is no perfect contemplative system.",
+    "url": null
+  },
+  {
+    "id": 3556078,
+    "title": "The Body",
+    "author": "Bill Bryson",
+    "cover": "https://bookwise.com/product/cover/579250098083980535/the-body-a-guide-for-occupants-bill-bryson?w=320",
+    "finished": "2024-02-15",
+    "rating": 3,
+    "review": "5-ish Sentence Summary:\nWoah, the body is pretty crazy right? Each component is in itself a dynamic and complex system. You know what else is crazy? All the people who have studied the body and the way humans have learned (and been wrong) about these vessels.\n\nRoman's Take:\nLike A Short History of Nearly Everything, I enjoy Bill Bryson's style -- everything about him represents his dual American-British citizenship (humor, accent, spellings). I wish I got more about how the body works: the purpose of the organs, how they function, etc. and less about the history of medical science. But I should have expected that since that's Bryson's bread and butter.\n\nRecommended if you:\n- Enjoy British witticisms.\n- Want to know about crazy shit people did in the past\n- Need a lay of the land of the basics of the human body, like me\n\nNot recommended if you:\n- Are looking for something beyond Anatomy and Biology 101\n- Don't like historical tangents",
+    "url": "https://readwise.io/books/9780385539319/"
+  },
+  {
+    "id": 3556125,
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "author": "Gabrielle Zevin",
+    "cover": "https://bookwise.com/product/cover/577174220338521346/tomorrow-and-tomorrow-and-tomorrow-a-novel-gabrielle-zevin?w=320",
+    "finished": "2024-01-27",
+    "rating": 5,
+    "review": null,
+    "url": "https://readwise.io/books/9780593321218/"
+  },
+  {
+    "id": 3556158,
+    "title": "No Bad Parts",
+    "author": "Richard Schwartz",
+    "cover": "https://bookwise.com/product/cover/577033483940491493/no-bad-parts-healing-trauma-and-restoring-wholeness-with-the-internal-family-systems-model-richard-h-schwartz-richard-c-schwartz-richard-d-schwartz-and-richard-schwartz?w=320",
+    "finished": "2024-01-17",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9781683646693/"
+  },
+  {
+    "id": 3556130,
+    "title": "Dare to Lead",
+    "author": "Brené Brown",
+    "cover": "https://covers.openlibrary.org/b/id/10304768-M.jpg",
+    "finished": "2024-01-13",
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556172,
+    "title": "Deep Oakland",
+    "author": "Andrew Alden",
+    "cover": "https://bookwise.com/product/cover/576540902644747130/deep-oakland-how-geology-shaped-a-city-andrew-alden?w=320",
+    "finished": "2024-01-08",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9781597145978/"
+  },
+  {
+    "id": 3556133,
+    "title": "Analog",
+    "author": "Robert Hassan",
+    "cover": "https://bookwise.com/product/cover/579250097960813043/analog-robert-hassan?w=320",
+    "finished": "2024-01-06",
+    "rating": 3,
+    "review": "Interesting and thought-provoking ideas, especially in redefining what \"analog\" even means besides \"non-digital\". Most of the ideas after that were technological determinism, re-spun. Some weak arguments at the end, including that the rise of automation in the workplace explains the obesity epidemic (?).",
+    "url": "https://readwise.io/books/9780262371827/"
+  },
+  {
+    "id": 3556204,
+    "title": "A Promised Land",
+    "author": "Barack Obama",
+    "cover": "https://bookwise.com/product/cover/579250099223204399/a-promised-land-barack-obama?w=320",
+    "finished": "2023-12-31",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9781524763183/"
+  },
+  {
+    "id": 3556048,
+    "title": "The Art of Power",
+    "author": "Thich Nhat Hanh",
+    "cover": "https://bookwise.com/product/cover/576927929202316385/the-art-of-power-thich-nhat-hanh?w=320",
+    "finished": "2023-12-31",
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9780061738081/"
+  },
+  {
+    "id": 3555956,
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "cover": "https://bookwise.com/product/cover/579250099286802954/meditations-a-new-translation-marcus-aurelius?w=320",
+    "finished": "2023-12-31",
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9781588361738/"
+  },
+  {
+    "id": 3555901,
+    "title": "Electromagnetic Theory for Complete Idiots (Electrical Engineering for Complete Idiots)",
+    "author": "David Smith",
+    "cover": "",
+    "finished": "2023-12-31",
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556200,
+    "title": "How Should One Read a Book?",
+    "author": "Virginia Woolf",
+    "cover": "",
+    "finished": "2023-12-16",
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556221,
+    "title": "Tehanu",
+    "author": "Ursula  K. Le Guin",
+    "cover": "https://bookwise.com/product/cover/577209405556395851/tehanu-book-four-ursula-k-le-guin?w=320",
+    "finished": "2023-10-07",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9781439106891/"
+  },
+  {
+    "id": 3556229,
+    "title": "The Farthest Shore",
+    "author": "Ursula  K. Le Guin",
+    "cover": "https://bookwise.com/product/cover/577209405559769794/the-farthest-shore-ursula-k-le-guin?w=320",
+    "finished": "2023-09-14",
+    "rating": 3,
+    "review": null,
+    "url": "https://readwise.io/books/9781442480834/"
+  },
+  {
+    "id": 3556223,
+    "title": "The Coaching Habit: Say Less, Ask More & Change the Way You Lead Forever",
+    "author": "Michael Bungay Stanier",
+    "cover": "https://covers.openlibrary.org/b/id/12515817-M.jpg",
+    "finished": "2023-09-10",
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556225,
+    "title": "Coach Wooden's Pyramid of Success",
+    "author": "Jay Carty John Wooden",
+    "cover": "https://bookwise.com/product/cover/576628863419049413/coach-woodens-pyramid-of-success-building-blocks-for-a-better-life-john-wooden-and-jay-carty?w=320",
+    "finished": "2023-09-04",
+    "rating": 2,
+    "review": null,
+    "url": "https://readwise.io/books/9781441226181/"
+  },
+  {
+    "id": 3556251,
+    "title": "The Tombs of Atuan",
+    "author": "Ursula  K. Le Guin",
+    "cover": "https://bookwise.com/product/cover/577209405559769801/the-tombs-of-atuan-ursula-k-le-guin?w=320",
+    "finished": "2023-08-20",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9781442480841/"
+  },
+  {
+    "id": 3556243,
+    "title": "What Is ChatGPT Doing... and Why Does It Work?",
+    "author": "Stephen Wolfram",
+    "cover": "https://covers.openlibrary.org/b/id/13746227-M.jpg",
+    "finished": "2023-08-17",
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555823,
+    "title": "Styled",
+    "author": "Angelin Borsics Emily Henderson",
+    "cover": "https://bookwise.com/product/cover/577174220549386413/styled-secrets-for-arranging-rooms-from-tabletops-to-bookshelves-emily-henderson-and-angelin-borsics?w=320",
+    "finished": "2023-08-10",
+    "rating": 3,
+    "review": null,
+    "url": "https://readwise.io/books/9780804186285/"
+  },
+  {
+    "id": 3555828,
+    "title": "Remodelista: The Organized Home: Simple, Stylish Storage Ideas for All Over the House",
+    "author": "Julie Carlson",
+    "cover": "https://bookwise.com/product/cover/579144546161832871/remodelista-the-organized-home-simple-stylish-storage-ideas-for-all-over-the-house-julie-carlson?w=320",
+    "finished": "2023-08-08",
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9781579658151/"
+  },
+  {
+    "id": 3555830,
+    "title": "A Wizard of Earthsea",
+    "author": "Ursula K. Le Guin",
+    "cover": "https://bookwise.com/product/cover/576927929684662681/a-wizard-of-earthsea-ursula-k-le-guin-and-ursula-k-le-guin?w=320",
+    "finished": "2023-08-06",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780544084377/"
+  },
+  {
+    "id": 3555835,
+    "title": "Ultralearning",
+    "author": "Scott H. Young",
+    "cover": "https://bookwise.com/product/cover/576927929203431052/ultralearning-master-hard-skills-outsmart-the-competition-and-accelerate-your-career-scott-h-young?w=320",
+    "finished": "2023-07-20",
+    "rating": 3,
+    "review": null,
+    "url": "https://readwise.io/books/9780062852748/"
+  },
+  {
+    "id": 3555918,
+    "title": "The Left Hand of Darkness",
+    "author": "Ursula K. Le Guin",
+    "cover": "https://covers.openlibrary.org/b/id/10618463-M.jpg",
+    "finished": "2023-07-05",
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555864,
+    "title": "How to Keep House While Drowning",
+    "author": "KC Davis",
+    "cover": "https://bookwise.com/product/cover/577209405785291818/how-to-keep-house-while-drowning-a-gentle-approach-to-cleaning-and-organizing-katherine-davis?w=320",
+    "finished": "2023-05-10",
+    "rating": 3,
+    "review": null,
+    "url": "https://readwise.io/books/9781668002858/"
+  },
+  {
+    "id": 3555883,
+    "title": "Principles",
+    "author": "Ray Dalio",
+    "cover": "https://bookwise.com/product/cover/579144546083298771/principles-life-and-work?w=320",
+    "finished": "2023-04-30",
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9781501124051/"
+  },
+  {
+    "id": 3555867,
+    "title": "After the Ecstasy, the Laundry: How the Heart Grows Wise on the Spiritual Path",
+    "author": "Jack Kornfield",
+    "cover": "https://covers.openlibrary.org/b/id/368040-M.jpg",
+    "finished": "2023-04-23",
+    "rating": 5,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555908,
+    "title": "Consider Phlebas",
+    "author": "Iain M. Banks",
+    "cover": "https://bookwise.com/product/cover/576963113828762975/consider-phlebas-i-banks?w=320",
+    "finished": "2023-04-11",
+    "rating": 3,
+    "review": null,
+    "url": "https://readwise.io/books/9780316095839/"
+  },
+  {
+    "id": 3555873,
+    "title": "Anarchism: A Very Short Introduction",
+    "author": "Alex Prichard",
+    "cover": "https://covers.openlibrary.org/b/id/13269075-M.jpg",
+    "finished": "2023-04-10",
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555890,
+    "title": "On the Move",
+    "author": "Oliver Sacks",
+    "cover": "https://bookwise.com/product/cover/579250098083793766/on-the-move-a-life-oliver-sacks?w=320",
+    "finished": "2023-03-31",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780385352550/"
+  },
+  {
+    "id": 3555932,
+    "title": "The Dispossessed",
+    "author": "Ursula K. Le Guin",
+    "cover": "https://bookwise.com/product/cover/576927929202375187/the-dispossessed-ursula-k-le-guin?w=320",
+    "finished": "2023-02-06",
+    "rating": 5,
+    "review": null,
+    "url": "https://readwise.io/books/9780061796883/"
+  },
+  {
+    "id": 3555944,
+    "title": "Cloud Cuckoo Land",
+    "author": "Anthony Doerr",
+    "cover": "https://covers.openlibrary.org/b/id/13253465-M.jpg",
+    "finished": "2023-01-13",
+    "rating": 5,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555962,
+    "title": "My Name Is Lucy Barton",
+    "author": "Elizabeth Strout",
+    "cover": "https://bookwise.com/product/cover/577174220558189204/my-name-is-lucy-barton-a-novel-elizabeth-strout-and-elizabeth-strout?w=320",
+    "finished": "2023-01-03",
+    "rating": 3,
+    "review": null,
+    "url": "https://readwise.io/books/9780812989076/"
+  },
+  {
+    "id": 3555972,
+    "title": "Parable of the Sower",
+    "author": "Octavia E. Butler",
+    "cover": "https://covers.openlibrary.org/b/id/10466266-M.jpg",
+    "finished": "2022-12-27",
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555992,
+    "title": "Managing to Change the World: The Nonprofit Manager's Guide to Getting Results",
+    "author": "Jerry Hauser Alison Green",
+    "cover": "https://covers.openlibrary.org/b/id/14494028-M.jpg",
+    "finished": "2022-10-12",
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555982,
+    "title": "The Years of Rice and Salt",
+    "author": "Kim Stanley Robinson",
+    "cover": "https://bookwise.com/product/cover/579250098252338825/the-years-of-rice-and-salt-a-novel-kim-stanley-robinson?w=320",
+    "finished": "2022-09-22",
+    "rating": 5,
+    "review": null,
+    "url": "https://readwise.io/books/9780553897609/"
+  },
+  {
+    "id": 3556012,
+    "title": "Uncle Tungsten",
+    "author": "Oliver Sacks",
+    "cover": "https://bookwise.com/product/cover/579250098502613374/uncle-tungsten-memories-of-a-chemical-boyhood-oliver-sacks?w=320",
+    "finished": "2022-09-05",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780804172158/"
+  },
+  {
+    "id": 3555996,
+    "title": "The Ministry for the Future",
+    "author": "Kim Stanley Robinson",
+    "cover": "https://covers.openlibrary.org/b/id/10477770-M.jpg",
+    "finished": "2022-08-24",
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556023,
+    "title": "Crying in H Mart",
+    "author": "Michelle Zauner",
+    "cover": "https://bookwise.com/product/cover/579250098224098966/crying-in-h-mart-a-memoir-michelle-zauner?w=320",
+    "finished": "2022-07-25",
+    "rating": 5,
+    "review": null,
+    "url": "https://readwise.io/books/9780525657750/"
+  },
+  {
+    "id": 3556004,
+    "title": "Maid: Hard Work, Low Pay, and a Mother's Will to Survive",
+    "author": "Stephanie Land",
+    "cover": "https://covers.openlibrary.org/b/id/8356732-M.jpg",
+    "finished": "2022-07-20",
+    "rating": 3,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556032,
+    "title": "Nonviolent Communication: A Language of Life: Life-Changing Tools for Healthy Relationships (Nonviolent Communication Guides)",
+    "author": "Deepak Chopra Marshall B. Rosenberg",
+    "cover": "https://covers.openlibrary.org/b/id/940686-M.jpg",
+    "finished": "2022-07-05",
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556035,
+    "title": "Digital Zettelkasten: Principles, Methods, & Examples",
+    "author": "David Kadavy",
+    "cover": "https://covers.openlibrary.org/b/id/11421684-M.jpg",
+    "finished": "2022-05-30",
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556190,
+    "title": "Essentialism",
+    "author": "Greg McKeown",
+    "cover": "https://bookwise.com/product/cover/577174220549337521/essentialism-the-disciplined-pursuit-of-less-greg-mckeown?w=320",
+    "finished": "2022-05-26",
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9780804137393/"
+  },
+  {
+    "id": 3556054,
+    "title": "A World Without Email",
+    "author": "Cal Newport",
+    "cover": "https://bookwise.com/product/cover/577174220270736702/a-world-without-email-reimagining-work-in-an-age-of-communication-overload-cal-newport?w=320",
+    "finished": "2022-04-20",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780525536574/"
+  },
+  {
+    "id": 3556050,
+    "title": "Green Mars",
+    "author": "Kim Stanley Robinson",
+    "cover": "https://covers.openlibrary.org/b/id/372391-M.jpg",
+    "finished": "2022-03-23",
+    "rating": 5,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556087,
+    "title": "Digital Minimalism",
+    "author": "Cal Newport",
+    "cover": "https://bookwise.com/product/cover/577174220270736671/digital-minimalism-choosing-a-focused-life-in-a-noisy-world-cal-newport?w=320",
+    "finished": "2022-03-20",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780525536543/"
+  },
+  {
+    "id": 3556061,
+    "title": "Fragrant Palm Leaves",
+    "author": "Thich Nhat Hanh",
+    "cover": "https://bookwise.com/product/cover/579250099139060780/fragrant-palm-leaves-journals-1962-1966-thich-nhat-hanh?w=320",
+    "finished": "2022-03-04",
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9781440619564/"
+  },
+  {
+    "id": 3556064,
+    "title": "So Good They Can't Ignore You",
+    "author": "Cal Newport",
+    "cover": "https://bookwise.com/product/cover/579144546037683822/so-good-they-cant-ignore-you-why-skills-trump-passion-in-the-quest-for-work-you-love?w=320",
+    "finished": "2022-01-10",
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9781455509102/"
+  },
+  {
+    "id": 3556222,
+    "title": "Zen and the Art of Motorcycle Maintenance",
+    "author": "Robert M. Pirsig",
+    "cover": "https://bookwise.com/product/cover/576927929202486303/zen-and-the-art-of-motorcycle-maintenance-an-inquiry-into-values-robert-m-pirsig-and-robert-m-pirsig?w=320",
+    "finished": "2022-01-03",
+    "rating": 5,
+    "review": null,
+    "url": "https://readwise.io/books/9780061907999/"
+  },
+  {
+    "id": 3556211,
+    "title": "Breath",
+    "author": "James Nestor",
+    "cover": "https://bookwise.com/product/cover/579250098433654846/breath-the-new-science-of-a-lost-art-james-nestor?w=320",
+    "finished": "2021-12-27",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780735213630/"
+  },
+  {
+    "id": 3556219,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "cover": "https://bookwise.com/product/cover/577174220480411436/atomic-habits-an-easy-proven-way-to-build-good-habits-break-bad-ones-james-clear?w=320",
+    "finished": "2021-12-26",
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780735211308/"
+  },
+  {
+    "id": 3556216,
+    "title": "Miracle and Wonder: Conversations with Paul Simon",
+    "author": "Malcolm Gladwell",
+    "cover": "https://covers.openlibrary.org/b/id/1235058-M.jpg",
+    "finished": "2021-12-22",
+    "rating": 5,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556206,
+    "title": "Red Mars",
+    "author": "Kim Stanley Robinson",
+    "cover": "https://covers.openlibrary.org/b/id/382552-M.jpg",
+    "finished": "2021-10-30",
+    "rating": 5,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556227,
+    "title": "The Art of Learning",
+    "author": "Josh Waitzkin",
+    "cover": "https://bookwise.com/product/cover/577244589905916660/the-art-of-learning-an-inner-journey-to-optimal-performance-josh-waitzkin?w=320",
+    "finished": "2021-09-27",
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9781416538868/"
+  },
+  {
+    "id": 3556201,
+    "title": "PIHKAL",
+    "author": "Ann Shulgin Sasha Shulgin",
+    "cover": "https://bookwise.com/product/cover/576540902010610768/pihkal-a-chemical-love-story-sasha-shulgin-and-ann-shulgin?w=320",
+    "finished": "2021-07-29",
+    "rating": 5,
+    "review": null,
+    "url": "https://readwise.io/books/9780963009616/"
+  },
+  {
+    "id": 3556184,
+    "title": "Drug Use for Grown-Ups: Chasing Liberty in the Land of Fear",
+    "author": "Carl L. Hart",
+    "cover": "https://covers.openlibrary.org/b/id/12369642-M.jpg",
+    "finished": "2021-04-20",
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556198,
+    "title": "Sister Outsider: Essays and Speeches",
+    "author": "Audre Lorde",
+    "cover": "https://covers.openlibrary.org/b/id/10129207-M.jpg",
+    "finished": "2021-02-23",
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556255,
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "cover": "https://covers.openlibrary.org/b/id/12621906-M.jpg",
+    "finished": "2019-06-30",
+    "rating": 5,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555666,
+    "title": "Too High to Fail: Cannabis and the New Green Economic Revolution",
+    "author": "Doug Fine",
+    "cover": "https://covers.openlibrary.org/b/id/8088947-M.jpg",
+    "finished": "2013-12-13",
+    "rating": 3,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 5137052,
+    "title": "Overstory",
+    "author": "Richard Powers",
+    "cover": "https://bookwise.com/product/cover/576540901441236691/overstory-a-novel-richard-powers?w=320",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9780393635539/"
+  },
+  {
+    "id": 3556266,
+    "title": "Of Mice and Men",
+    "author": "John Steinbeck",
+    "cover": "https://bookwise.com/product/cover/579250099139075120/of-mice-and-men-john-steinbeck?w=320",
+    "finished": null,
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9781440633904/"
+  },
+  {
+    "id": 3556248,
+    "title": "How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers",
+    "author": "Sönke Ahrens",
+    "cover": "https://covers.openlibrary.org/b/id/8362230-M.jpg",
+    "finished": null,
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556236,
+    "title": "How to Be an Antiracist",
+    "author": "Ibram X. Kendi",
+    "cover": "https://bookwise.com/product/cover/577174220270709423/how-to-be-an-antiracist-ibram-x-kendi?w=320",
+    "finished": null,
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780525509295/"
+  },
+  {
+    "id": 3556224,
+    "title": "The Doors of Perception & Heaven and Hell",
+    "author": "Aldous Huxley",
+    "cover": "https://covers.openlibrary.org/b/id/39648-M.jpg",
+    "finished": null,
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556193,
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "cover": "https://covers.openlibrary.org/b/id/8634250-M.jpg",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556182,
+    "title": "1984",
+    "author": "George Orwell",
+    "cover": "https://covers.openlibrary.org/b/id/8745958-M.jpg",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556178,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "cover": "https://bookwise.com/product/cover/576540910436758565/the-great-gatsby-f-scott-fitzgerald?w=320",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9789389157413/"
+  },
+  {
+    "id": 3556175,
+    "title": "The Catcher in the Rye",
+    "author": "J. D. Salinger",
+    "cover": "https://bookwise.com/product/cover/576963113829127138/the-catcher-in-the-rye-j-d-salinger?w=320",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9780316460002/"
+  },
+  {
+    "id": 3556173,
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "cover": "https://bookwise.com/product/cover/576927929687923970/the-handmaids-tale-atwood?w=320",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9780547345666/"
+  },
+  {
+    "id": 3556170,
+    "title": "The Hobbit, or There and Back Again",
+    "author": "J.R.R. Tolkien",
+    "cover": "",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556167,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "cover": "https://covers.openlibrary.org/b/id/8231823-M.jpg",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556163,
+    "title": "The Hitchhiker’s Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "cover": "https://covers.openlibrary.org/b/id/12986869-M.jpg",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556161,
+    "title": "The Fellowship of the Ring",
+    "author": "J.R.R. Tolkien",
+    "cover": "https://covers.openlibrary.org/b/id/14627060-M.jpg",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556159,
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "cover": "https://covers.openlibrary.org/b/id/463307-M.jpg",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556153,
+    "title": "American Gods",
+    "author": "Neil Gaiman",
+    "cover": "https://bookwise.com/product/cover/576927929202687894/american-gods-the-tenth-anniversary-edition-a-novel-neil-gaiman?w=320",
+    "finished": null,
+    "rating": 5,
+    "review": null,
+    "url": "https://readwise.io/books/9780062109590/"
+  },
+  {
+    "id": 3556150,
+    "title": "The Return of the King",
+    "author": "J.R.R. Tolkien",
+    "cover": "https://covers.openlibrary.org/b/id/14627062-M.jpg",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556146,
+    "title": "The Secret History",
+    "author": "Donna Tartt",
+    "cover": "https://bookwise.com/product/cover/579250098006206913/the-secret-history-a-novel-donna-tartt?w=320",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9780307765697/"
+  },
+  {
+    "id": 3556144,
+    "title": "Cat’s Cradle",
+    "author": "Kurt Vonnegut Jr.",
+    "cover": "https://covers.openlibrary.org/b/id/12709654-M.jpg",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556141,
+    "title": "Atlas Shrugged",
+    "author": "Ayn Rand",
+    "cover": "https://bookwise.com/product/cover/579250098799578408/atlas-shrugged-ayn-rand?w=320",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9781101137192/"
+  },
+  {
+    "id": 3556134,
+    "title": "The Sun Also Rises",
+    "author": "Ernest Hemingway",
+    "cover": "https://covers.openlibrary.org/b/id/78741-M.jpg",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556128,
+    "title": "A Little Life",
+    "author": "Hanya Yanagihara",
+    "cover": "https://bookwise.com/product/cover/579250098083980481/a-little-life-a-novel-hanya-yanagihara?w=320",
+    "finished": null,
+    "rating": 5,
+    "review": null,
+    "url": "https://readwise.io/books/9780385539265/"
+  },
+  {
+    "id": 3556123,
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "cover": "https://bookwise.com/product/cover/579250098799588376/the-name-of-the-wind-patrick-rothfuss?w=320",
+    "finished": null,
+    "rating": 5,
+    "review": null,
+    "url": "https://readwise.io/books/9781101147160/"
+  },
+  {
+    "id": 3556119,
+    "title": "The Wise Man's Fear",
+    "author": "Patrick Rothfuss",
+    "cover": "https://bookwise.com/product/cover/579250098799927621/the-wise-mans-fear-patrick-rothfuss?w=320",
+    "finished": null,
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9781101486405/"
+  },
+  {
+    "id": 3556114,
+    "title": "Slaughterhouse-Five",
+    "author": "Kurt Vonnegut Jr.",
+    "cover": "https://covers.openlibrary.org/b/id/12727001-M.jpg",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556070,
+    "title": "Normal People",
+    "author": "Sally Rooney",
+    "cover": "https://bookwise.com/product/cover/579250099683263408/normal-people-a-novel-sally-rooney?w=320",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9781984822192/"
+  },
+  {
+    "id": 3556067,
+    "title": "Educated",
+    "author": "Tara Westover",
+    "cover": "https://bookwise.com/product/cover/579250098098031727/educated-a-memoir-tara-westover?w=320",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9780399590511/"
+  },
+  {
+    "id": 3556066,
+    "title": "Outlive",
+    "author": "Peter Attia",
+    "cover": "https://bookwise.com/product/cover/577174220338436732/outlive-the-science-and-art-of-longevity-peter-attia?w=320",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9780593236604/"
+  },
+  {
+    "id": 3556065,
+    "title": "Unbroken",
+    "author": "Laura Hillenbrand",
+    "cover": "https://bookwise.com/product/cover/579250098378044973/unbroken-a-world-war-ii-story-of-survival-resilience-and-redemption-laura-hillenbrand?w=320",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9780679603757/"
+  },
+  {
+    "id": 3556056,
+    "title": "The Power Broker (Pulitzer Prize Winner)",
+    "author": "Robert A Caro",
+    "cover": "https://bookwise.com/product/cover/579250098292243681/the-power-broker-pulitzer-prize-winner-robert-moses-and-the-fall-of-new-york-robert-a-caro?w=320",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9780593802465/"
+  },
+  {
+    "id": 3556041,
+    "title": "Blue Mars",
+    "author": "Kim Stanley Robinson",
+    "cover": "https://covers.openlibrary.org/b/id/3818726-M.jpg",
+    "finished": null,
+    "rating": 5,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556038,
+    "title": "Rock Me on the Water: 1974—The Year Los Angeles Transformed Movies, Music, Television and Politics",
+    "author": "Ronald Brownstein",
+    "cover": "https://covers.openlibrary.org/b/id/10899744-M.jpg",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3556036,
+    "title": "Four Hundred Souls",
+    "author": "Ibram X. Kendi",
+    "cover": "https://bookwise.com/product/cover/579250098291575270/four-hundred-souls-a-community-history-of-african-america-1619-2019?w=320",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9780593134054/"
+  },
+  {
+    "id": 3556016,
+    "title": "Language Hacking French",
+    "author": "Benny Lewis",
+    "cover": "https://bookwise.com/product/cover/576963115194108159/language-hacking-french-benny-lewis?w=320",
+    "finished": null,
+    "rating": 3,
+    "review": null,
+    "url": "https://readwise.io/books/9781681441023/"
+  },
+  {
+    "id": 3555953,
+    "title": "Hammer of the Gods",
+    "author": "Stephen Davis",
+    "cover": "https://covers.openlibrary.org/b/id/823709-M.jpg",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555804,
+    "title": "The Beatles Anthology",
+    "author": "The Beatles",
+    "cover": "https://covers.openlibrary.org/b/id/2356601-M.jpg",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555801,
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "cover": "https://bookwise.com/product/cover/577033483686814152/thinking-fast-and-slow-daniel-kahneman?w=320",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9781429969352/"
+  },
+  {
+    "id": 3555739,
+    "title": "Fight Club",
+    "author": "Chuck Palahniuk",
+    "cover": "https://covers.openlibrary.org/b/id/7890578-M.jpg",
+    "finished": null,
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555738,
+    "title": "Lord of the Flies",
+    "author": "William Golding",
+    "cover": "https://bookwise.com/product/cover/579250098799599320/lord-of-the-flies-william-golding?w=320",
+    "finished": null,
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9781101158104/"
+  },
+  {
+    "id": 3555737,
+    "title": "A Briefer History of Time",
+    "author": "Stephen W. Hawking",
+    "cover": "https://covers.openlibrary.org/b/id/1283677-M.jpg",
+    "finished": null,
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555736,
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "cover": "https://covers.openlibrary.org/b/id/11261770-M.jpg",
+    "finished": null,
+    "rating": 5,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555735,
+    "title": "Hamlet",
+    "author": "William Shakespeare",
+    "cover": "https://covers.openlibrary.org/b/id/8281954-M.jpg",
+    "finished": null,
+    "rating": 3,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555731,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "cover": "https://bookwise.com/product/cover/576927929202946987/to-kill-a-mockingbird-harper-lee?w=320",
+    "finished": null,
+    "rating": 4,
+    "review": null,
+    "url": "https://readwise.io/books/9780062368683/"
+  },
+  {
+    "id": 3555726,
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "cover": "https://covers.openlibrary.org/b/id/12646537-M.jpg",
+    "finished": null,
+    "rating": 3,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555722,
+    "title": "The Autobiography of Malcolm X",
+    "author": "Malcolm X",
+    "cover": "https://covers.openlibrary.org/b/id/14875135-M.jpg",
+    "finished": null,
+    "rating": 5,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555719,
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "cover": "https://bookwise.com/product/cover/577209405568937513/steve-jobs-walter-isaacson-and-walter-isaacson?w=320",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9781451648553/"
+  },
+  {
+    "id": 3555714,
+    "title": "Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character",
+    "author": "Richard Feynman",
+    "cover": "https://covers.openlibrary.org/b/id/9274698-M.jpg",
+    "finished": null,
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555710,
+    "title": "Scar Tissue",
+    "author": "Larry Sloman Anthony Kiedis",
+    "cover": "https://bookwise.com/product/cover/576963114914048905/scar-tissue-anthony-kiedis-and-larry-sloman?w=320",
+    "finished": null,
+    "rating": 5,
+    "review": null,
+    "url": "https://readwise.io/books/9781401381769/"
+  },
+  {
+    "id": 3555705,
+    "title": "No One Here Gets Out Alive",
+    "author": "Danny Sugerman Jerry Hopkins",
+    "cover": "https://bookwise.com/product/cover/576892746307204271/no-one-here-gets-out-alive-jerry-hopkins-and-danny-sugerman?w=320",
+    "finished": null,
+    "rating": 3,
+    "review": null,
+    "url": "https://readwise.io/books/9781538714799/"
+  },
+  {
+    "id": 3555689,
+    "title": "The Stranger",
+    "author": "Albert Camus",
+    "cover": "https://covers.openlibrary.org/b/id/15070895-M.jpg",
+    "finished": null,
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555679,
+    "title": "Ender’s Game",
+    "author": "Orson Scott Card",
+    "cover": "https://covers.openlibrary.org/b/id/12996033-M.jpg",
+    "finished": null,
+    "rating": 5,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555673,
+    "title": "The Autobiography of Malcolm X",
+    "author": "Malcolm X",
+    "cover": "https://covers.openlibrary.org/b/id/14875135-M.jpg",
+    "finished": null,
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555660,
+    "title": "The Giver",
+    "author": "Lois Lowry",
+    "cover": "https://covers.openlibrary.org/b/id/8352502-M.jpg",
+    "finished": null,
+    "rating": 3,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555657,
+    "title": "One Day in the Life of Ivan Denisovich",
+    "author": "Aleksandr Solzhenitsyn",
+    "cover": "https://bookwise.com/product/cover/577033483723684210/one-day-in-the-life-of-ivan-denisovich-a-novel-aleksandr-solzhenitsyn?w=320",
+    "finished": null,
+    "rating": 3,
+    "review": null,
+    "url": "https://readwise.io/books/9781466839410/"
+  },
+  {
+    "id": 3555651,
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "cover": "https://covers.openlibrary.org/b/id/12993656-M.jpg",
+    "finished": null,
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555648,
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "cover": "https://covers.openlibrary.org/b/id/12715902-M.jpg",
+    "finished": null,
+    "rating": 4,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3555390,
+    "title": "The New Encyclopedia of Modern Bodybuilding",
+    "author": "Bill Dobbins Arnold Schwarzenegger",
+    "cover": "https://bookwise.com/product/cover/577209405568986091/the-new-encyclopedia-of-modern-bodybuilding-the-bible-of-bodybuilding-fully-updated-and-revis-arnold-schwarzenegger-and-bill-dobbins?w=320",
+    "finished": null,
+    "rating": 3,
+    "review": null,
+    "url": "https://readwise.io/books/9781451697131/"
+  },
+  {
+    "id": 3547251,
+    "title": "Why French is Easy",
+    "author": "Benny Lewis",
+    "cover": "",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3547229,
+    "title": "The New New Thing: A Silicon Valley Story",
+    "author": "Michael Lewis",
+    "cover": "https://covers.openlibrary.org/b/id/809757-M.jpg",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3547220,
+    "title": "Money for Couples",
+    "author": "Ramit Sethi",
+    "cover": "https://bookwise.com/product/cover/576963115036190838/money-for-couples-no-more-stress-no-more-fights-just-a-10-step-plan-to-create-your-rich-life-together-ramit-sethi?w=320",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": "https://readwise.io/books/9781523523702/"
+  },
+  {
+    "id": 3547218,
+    "title": "Chop Wood, Carry Water: The Yoga of Work",
+    "author": "Andrew Taggart",
+    "cover": "https://covers.openlibrary.org/b/id/10457966-M.jpg",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3547209,
+    "title": "Becoming a Supple Leopard",
+    "author": "Kelly Starrett",
+    "cover": "https://covers.openlibrary.org/b/id/7318487-M.jpg",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
+  },
+  {
+    "id": 3547183,
+    "title": "Ready to Run",
+    "author": "Kelly Starrett",
+    "cover": "https://bookwise.com/product/cover/576540902676201880/ready-to-run-unlocking-your-potential-to-run-naturally-kelly-starrett?w=320",
+    "finished": null,
+    "rating": 5,
+    "review": null,
+    "url": "https://readwise.io/books/9781628600728/"
+  },
+  {
+    "id": 3547180,
+    "title": "The Odyssey",
+    "author": "Homer",
+    "cover": "https://covers.openlibrary.org/b/id/12474938-M.jpg",
+    "finished": null,
+    "rating": null,
+    "review": null,
+    "url": null
   }
 ]
