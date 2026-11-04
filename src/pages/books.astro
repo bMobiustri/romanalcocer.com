@@ -10,10 +10,13 @@ for (const b of all) {
   if (!byYear.has(y)) byYear.set(y, []);
   byYear.get(y)!.push(b);
 }
+// Year sections run newest → oldest; within a year, oldest → newest (reading order).
+for (const list of byYear.values()) list.reverse();
 const years = [...byYear.keys()];
 const dated = years.filter((y) => y !== 'Earlier').length;
 const stars = (n: number | null) => (n ? '★'.repeat(n) + '☆'.repeat(5 - n) : '');
 const fmt = (d: string | null) => d ? new Date(d + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
+const fmtLong = (d: string | null) => d ? new Date(d + 'T00:00:00').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) : 'Date unknown';
 ---
 <Base title="Books" description="Books I've finished, by year.">
   <h1>Books</h1>
@@ -23,7 +26,7 @@ const fmt = (d: string | null) => d ? new Date(d + 'T00:00:00').toLocaleDateStri
   </p>
 
   <div class="toggle" role="group" aria-label="View">
-    <button data-view="grid" aria-pressed="true">Covers</button>
+    <button data-view="grid" aria-pressed="true">Gallery</button>
     <button data-view="list" aria-pressed="false">List</button>
   </div>
 
@@ -34,8 +37,14 @@ const fmt = (d: string | null) => d ? new Date(d + 'T00:00:00').toLocaleDateStri
 
       <div class="grid">
         {byYear.get(y)!.map((b) => (
-          <a class="cover" href={b.url || undefined} title={`${b.title} — ${b.author}${b.rating ? ' · ' + stars(b.rating) : ''}`}>
-            {b.cover ? <img src={b.cover} alt={b.title} loading="lazy" /> : <span class="nocover">{b.title}</span>}
+          <a class="cover" href={b.url || undefined} aria-label={`${b.title} by ${b.author}`}>
+            {b.cover ? <img src={b.cover} alt="" loading="lazy" /> : <span class="nocover">{b.title}</span>}
+            <span class="info" aria-hidden="true">
+              <strong>{b.title}</strong>
+              <span>{b.author}</span>
+              <span class="when">{fmtLong(b.finished)}</span>
+              {b.rating && <span class="stars">{stars(b.rating)}</span>}
+            </span>
           </a>
         ))}
       </div>
@@ -65,8 +74,19 @@ const fmt = (d: string | null) => d ? new Date(d + 'T00:00:00').toLocaleDateStri
   .toggle button[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
 
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(6.5rem, 1fr)); gap: 0.9rem; }
-  .cover { display: block; aspect-ratio: 2 / 3; background: var(--rule); border-radius: 3px; overflow: hidden; box-shadow: 0 1px 2px rgba(0,0,0,0.12); }
+  .cover { position: relative; display: block; aspect-ratio: 2 / 3; background: var(--rule); border-radius: 3px; overflow: hidden; box-shadow: 0 1px 2px rgba(0,0,0,0.12); text-decoration: none; }
   .cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .cover .info {
+    position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: flex-end; gap: 0.1rem;
+    padding: 0.5rem; font-size: 0.72rem; line-height: 1.3; color: #fff;
+    background: linear-gradient(to top, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.72) 60%, rgba(0,0,0,0.35) 100%);
+    opacity: 0; transition: opacity 120ms ease;
+  }
+  .cover .info strong { font-weight: 600; }
+  .cover .info .when { opacity: 0.8; }
+  .cover .info .stars { font-size: 0.7rem; }
+  .cover:hover .info, .cover:focus-visible .info { opacity: 1; }
+  @media (hover: none) { .cover:active .info { opacity: 1; } }
   .nocover { display: flex; align-items: center; justify-content: center; height: 100%; padding: 0.5rem; text-align: center; font-size: 0.75rem; line-height: 1.25; color: var(--muted); }
 
   .list { list-style: none; padding: 0; margin: 0; }
