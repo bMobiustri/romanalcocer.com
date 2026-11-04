@@ -1,0 +1,89 @@
+---
+import Base from '../layouts/Base.astro';
+import books from '../data/books.json';
+
+type Book = { id: string; title: string; author: string; cover: string; finished: string; rating?: number; url?: string };
+const all = (books as Book[]).filter((b) => b.finished).sort((a, b) => b.finished.localeCompare(a.finished));
+const byYear = new Map<string, Book[]>();
+for (const b of all) {
+  const y = b.finished.slice(0, 4);
+  if (!byYear.has(y)) byYear.set(y, []);
+  byYear.get(y)!.push(b);
+}
+const years = [...byYear.keys()];
+const stars = (n?: number) => (n ? '★'.repeat(n) + '☆'.repeat(5 - n) : '');
+const fmt = (d: string) => new Date(d + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+---
+<Base title="Books" description="Books I've finished, by year.">
+  <h1>Books</h1>
+  <p class="meta">
+    Everything I've finished, most recent first. {all.length} books across {years.length} years.
+  </p>
+
+  <div class="toggle" role="group" aria-label="View">
+    <button data-view="grid" aria-pressed="true">Covers</button>
+    <button data-view="list" aria-pressed="false">List</button>
+  </div>
+
+  {years.map((y) => (
+    <section class="year">
+      <h2 id={`y${y}`}>{y} <span class="meta">· {byYear.get(y)!.length}</span></h2>
+
+      <div class="grid">
+        {byYear.get(y)!.map((b) => (
+          <a class="cover" href={b.url || undefined} title={`${b.title} — ${b.author}`}>
+            {b.cover ? <img src={b.cover} alt={b.title} loading="lazy" /> : <span class="nocover">{b.title}</span>}
+          </a>
+        ))}
+      </div>
+
+      <ul class="list">
+        {byYear.get(y)!.map((b) => (
+          <li>
+            <span class="meta">{fmt(b.finished)}</span>
+            <span>
+              {b.url ? <a href={b.url}>{b.title}</a> : <em>{b.title}</em>}
+              <span class="meta"> — {b.author}</span>
+              {b.rating && <span class="meta stars"> {stars(b.rating)}</span>}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>
+
+<style>
+  .toggle { display: inline-flex; border: 1px solid var(--rule); border-radius: 4px; overflow: hidden; margin: 0.5rem 0 1.5rem; }
+  .toggle button {
+    font: inherit; font-size: 0.85rem; padding: 0.3rem 0.8rem; border: 0; background: transparent; color: var(--muted); cursor: pointer;
+  }
+  .toggle button[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(6.5rem, 1fr)); gap: 0.9rem; }
+  .cover { display: block; aspect-ratio: 2 / 3; background: var(--rule); border-radius: 3px; overflow: hidden; box-shadow: 0 1px 2px rgba(0,0,0,0.12); }
+  .cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .nocover { display: flex; align-items: center; justify-content: center; height: 100%; padding: 0.5rem; text-align: center; font-size: 0.75rem; line-height: 1.25; color: var(--muted); }
+
+  .list { list-style: none; padding: 0; margin: 0; }
+  .list li { display: grid; grid-template-columns: 4.5rem 1fr; gap: 0.75rem; padding: 0.3rem 0; }
+  .stars { letter-spacing: 0.05em; }
+
+  body[data-view="list"] .grid { display: none; }
+  body:not([data-view="list"]) .list { display: none; }
+</style>
+
+<script>
+  const KEY = 'books-view';
+  const body = document.body;
+  const buttons = document.querySelectorAll<HTMLButtonElement>('.toggle button');
+  function apply(view: string) {
+    body.dataset.view = view;
+    buttons.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.view === view)));
+    try { localStorage.setItem(KEY, view); } catch {}
+  }
+  let saved = 'grid';
+  try { saved = localStorage.getItem(KEY) || 'grid'; } catch {}
+  apply(saved);
+  buttons.forEach((b) => b.addEventListener('click', () => apply(b.dataset.view!)));
+</script>

@@ -1,0 +1,43 @@
+---
+import '../styles/global.css';
+interface Props { title?: string; description?: string; }
+const { title, description = 'Roman Alcocer — essays, notes, and a reading log.' } = Astro.props;
+const siteName = 'Roman Alcocer';
+const fullTitle = title ? `${title} · ${siteName}` : siteName;
+const path = Astro.url.pathname;
+const nav = [
+  { href: '/essays', label: 'Essays' },
+  { href: '/books', label: 'Books' },
+  { href: '/about', label: 'About' },
+];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="alternate" type="application/rss+xml" title={siteName} href="/rss.xml" />
+    <link rel="canonical" href={new URL(path, Astro.site)} />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="site">
+        <a class="name" href="/">{siteName}</a>
+        <nav>
+          {nav.map((n) => (
+            <a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}>{n.label}</a>
+          ))}
+          <a href="/rss.xml" title="RSS">RSS</a>
+        </nav>
+      </header>
+      <main>
+        <slot />
+      </main>
+      <footer class="site">
+        <p>Written by Roman Alcocer. Opinions are my own and not those of my employer. Built with Astro; source on GitHub.</p>
+      </footer>
+    </div>
+  </body>
+</html>

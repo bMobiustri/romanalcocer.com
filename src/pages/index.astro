@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const essays = (await getCollection('essays', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 5);
+const fmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+---
+<Base>
+  <h1>Hi, I'm Roman.</h1>
+  <p>
+    I work in clinical trial compliance in the Bay Area and live in Oakland.
+    This site is where I keep essays, a few notes, and a log of what I've read.
+    More on the <a href="/about">about page</a>.
+  </p>
+
+  <h2>Recent essays</h2>
+  {essays.length === 0 ? (
+    <p class="meta">Nothing yet. The first one is coming.</p>
+  ) : (
+    <ul class="post-list">
+      {essays.map((e) => (
+        <li>
+          <span class="meta">{fmt(e.data.date)}</span>
+          <a href={`/essays/${e.id}`}>{e.data.title}</a>
+        </li>
+      ))}
+    </ul>
+  )}
+
+  <h2>Elsewhere on the site</h2>
+  <p>
+    <a href="/books">Books</a> — everything I've finished, by year, with covers or as a list.<br />
+    <a href="/rss.xml">RSS</a> — subscribe and new essays come to you.
+  </p>
+</Base>

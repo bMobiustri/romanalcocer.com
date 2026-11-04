@@ -1,0 +1,16 @@
+{
+  "name": "romanalcocer.com",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "books": "node scripts/sync-books.mjs"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.0",
+    "astro": "^5"
+  }
+}

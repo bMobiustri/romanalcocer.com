@@ -1,0 +1,70 @@
+/* Typography-first, no framework. Charter → transitional serif stack. */
+:root {
+  --font-body: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, Georgia, serif;
+  --font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  --bg: #fdfcf9;
+  --fg: #1d1c1a;
+  --muted: #6b6760;
+  --rule: #e6e2da;
+  --accent: #8a3b12;
+  --measure: 38rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161513;
+    --fg: #e9e5dd;
+    --muted: #9a958c;
+    --rule: #2c2a26;
+    --accent: #e09a6c;
+  }
+}
+
+* { box-sizing: border-box; }
+html { font-size: 112.5%; }
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  line-height: 1.55;
+  color: var(--fg);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+.wrap {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { text-decoration-thickness: 2px; }
+
+header.site {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+  font-size: 0.95rem;
+}
+header.site .name { font-weight: 600; color: var(--fg); text-decoration: none; }
+header.site nav a { margin-left: 1rem; color: var(--muted); text-decoration: none; }
+header.site nav a:hover, header.site nav a[aria-current] { color: var(--fg); }
+
+h1, h2, h3 { line-height: 1.2; font-weight: 600; letter-spacing: -0.01em; }
+h1 { font-size: 1.9rem; margin: 0 0 0.5rem; }
+h2 { font-size: 1.3rem; margin: 2.2rem 0 0.6rem; }
+h3 { font-size: 1.05rem; margin: 1.6rem 0 0.4rem; }
+p { margin: 0 0 1.1rem; }
+.meta { color: var(--muted); font-size: 0.9rem; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
+blockquote { margin: 1.2rem 0; padding-left: 1rem; border-left: 2px solid var(--rule); color: var(--muted); }
+code { font-family: var(--font-mono); font-size: 0.85em; }
+pre { padding: 1rem; overflow-x: auto; border: 1px solid var(--rule); border-radius: 4px; }
+img { max-width: 100%; height: auto; }
+
+footer.site { margin-top: 4rem; padding-top: 1rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+
+/* Lists of posts */
+.post-list { list-style: none; padding: 0; margin: 0; }
+.post-list li { display: grid; grid-template-columns: 6.5rem 1fr; gap: 1rem; padding: 0.45rem 0; }
+.post-list .meta { font-variant-numeric: tabular-nums; }
+@media (max-width: 480px) { .post-list li { grid-template-columns: 1fr; gap: 0.1rem; } }
