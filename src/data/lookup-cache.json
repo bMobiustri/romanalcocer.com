@@ -1,318 +1,461 @@
 {
   "red rising|pierce brown": {
-    "cover": "https://covers.openlibrary.org/b/id/7316188-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309467951340/red-rising-pierce-brown?w=320",
     "url": "https://readwise.io/books/9780606394604/"
   },
   "lincoln's virtues: an ethical biography|william lee miller": {
+    "v": 4,
     "cover": "https://covers.openlibrary.org/b/id/225468-M.jpg",
-    "url": "https://readwise.io/books/9780375701733/"
+    "url": null
   },
   "fifty degrees below|kim stanley robinson": {
-    "cover": "https://covers.openlibrary.org/b/id/7247322-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576945521334027841/fifty-degrees-below-kim-stanley-robinson?w=320",
     "url": "https://readwise.io/books/9780007405121/"
   },
   "norwegian wood|haruki murakami": {
-    "cover": "https://covers.openlibrary.org/b/id/2237620-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309237260760/norwegian-wood-haruki-murakami?w=320",
     "url": "https://readwise.io/books/9780375704024/"
   },
   "korea: a very short introduction|michael j. seth": {
-    "cover": "https://covers.openlibrary.org/b/id/470933-M.jpg",
-    "url": "https://readwise.io/books/9781538128985/"
-  },
-  "the squat bible: the ultimate guide to mastering the squat and finding your true strength|aaron horschig, kevin sonthana, travis neff": {
-    "cover": "https://covers.openlibrary.org/b/id/10371491-M.jpg",
-    "url": "https://readwise.io/books/9781095696958/"
-  },
-  "the intellectual life: its spirit, conditions, methods|antonin sertillanges": {
-    "cover": "https://covers.openlibrary.org/b/id/607514-M.jpg",
-    "url": "https://readwise.io/books/9780813206462/"
-  },
-  "becoming a supple leopard, 1st edition: the ultimate guide to resolving pain preventing injury and opti|kelly starrett": {
+    "v": 4,
     "cover": "",
     "url": null
   },
-  "bossy pants|tina fey": {
+  "the squat bible: the ultimate guide to mastering the squat and finding your true strength|aaron horschig, kevin sonthana, travis neff": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523310401952165/the-squat-bible-the-ultimate-guide-to-mastering-the-squat-and-finding-your-true-strength-kevin-sonthana-travis-neff-and-aaron-horschig?w=320",
+    "url": "https://readwise.io/books/9781540395429/"
+  },
+  "the intellectual life: its spirit, conditions, methods|antonin sertillanges": {
+    "v": 4,
     "cover": "",
+    "url": null
+  },
+  "becoming a supple leopard, 1st edition: the ultimate guide to resolving pain preventing injury and opti|kelly starrett": {
+    "v": 4,
+    "cover": "",
+    "url": null
+  },
+  "override:https://readwise.io/books/9781628600834/": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523310490157570/becoming-a-supple-leopard-2nd-edition-the-ultimate-guide-to-resolving-pain-preventing-injury-and-optimizing-athletic-performance-kelly-starrett-and-glen-cordoza?w=320"
+  },
+  "bossy pants|tina fey": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523310411493642/bossy-pants-lexie-yut?w=320",
     "url": "https://readwise.io/books/9781549936906/"
   },
   "galileo's dream|kim stanley robinson": {
+    "v": 4,
     "cover": "https://covers.openlibrary.org/b/id/6675583-M.jpg",
-    "url": "https://readwise.io/books/9780553590876/"
+    "url": null
   },
   "looking after your books|francesca galligan": {
-    "cover": "",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523310712803010/looking-after-your-books-francesca-galligan?w=320",
     "url": "https://readwise.io/books/9781851246274/"
   },
   "a moveable feast|ernest hemingway": {
-    "cover": "https://covers.openlibrary.org/b/id/7268728-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309546390373/a-moveable-feast-ernest-hemingway?w=320",
     "url": "https://readwise.io/books/9780684833637/"
   },
   "neuromancer|william gibson": {
-    "cover": "https://covers.openlibrary.org/b/id/283860-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309302564198/neuromancer-william-gibson?w=320",
     "url": "https://readwise.io/books/9780441007462/"
   },
   "siddartha|hermann hesse": {
-    "cover": "https://covers.openlibrary.org/b/id/12043932-M.jpg",
+    "v": 4,
+    "cover": "",
     "url": null
   },
+  "override:https://readwise.io/books/9780307423696/": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/579250098005864912/siddhartha-hermann-hesse?w=320"
+  },
   "a river runs through it and other stories|norman maclean": {
-    "cover": "https://covers.openlibrary.org/b/id/10710412-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/577068666855405864/a-river-runs-through-it-and-other-stories-norman-maclean?w=320",
     "url": "https://readwise.io/books/9780226472232/"
   },
   "the way of kings|brandon sanderson": {
-    "cover": "https://covers.openlibrary.org/b/id/14658316-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309626933407/the-way-of-kings-book-one-of-the-stormlight-archive-brandon-sanderson?w=320",
     "url": "https://readwise.io/books/9780765376671/"
   },
   "dubliners|james joyce": {
-    "cover": "https://covers.openlibrary.org/b/id/8216412-M.jpg",
-    "url": null
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309541296642/dubliners-james-joyce?w=320",
+    "url": "https://readwise.io/books/9780679739906/"
   },
   "it|stephen king": {
-    "cover": "https://covers.openlibrary.org/b/id/8569284-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523310843684530/it-stephen-king?w=320",
     "url": "https://readwise.io/books/9781982127794/"
   },
   "what i talk about when i talk about running|haruki murakami": {
-    "cover": "https://covers.openlibrary.org/b/id/13185830-M.jpg",
+    "v": 4,
+    "cover": "",
     "url": null
   },
+  "override:https://readwise.io/books/9780307389831/": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309168946567/what-i-talk-about-when-i-talk-about-running-a-memoir-haruki-murakami?w=320"
+  },
   "the art of happiness at work|dalai lama xiv": {
+    "v": 4,
     "cover": "https://covers.openlibrary.org/b/id/480585-M.jpg",
-    "url": "https://readwise.io/books/9781444713886/"
+    "url": null
   },
   "the killing moon|n.k. jemisin": {
-    "cover": "https://covers.openlibrary.org/b/id/7554263-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576892745516619469/the-killing-moon-dreamblood-book-1-nk-jemisin?w=320",
     "url": "https://readwise.io/books/9780748129997/"
   },
   "waking up: a guide to spirituality without religion|sam harris": {
-    "cover": "https://covers.openlibrary.org/b/id/7311247-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523310313192760/waking-up-a-guide-to-spirituality-without-religion-sam-harris?w=320",
     "url": "https://readwise.io/books/9781451636024/"
   },
   "buddhist ethics: a very short introduction|damien keown": {
-    "cover": "https://covers.openlibrary.org/b/id/117986-M.jpg",
-    "url": "https://readwise.io/books/9781349220946/"
+    "v": 4,
+    "cover": "",
+    "url": null
   },
   "dare to lead|brené brown": {
-    "cover": "https://covers.openlibrary.org/b/id/10304768-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309261149258/dare-to-lead-brave-work-tough-conversations-whole-hearts-brene-brown?w=320",
     "url": "https://readwise.io/books/9780399592522/"
   },
   "electromagnetic theory for complete idiots (electrical engineering for complete idiots)|david smith": {
+    "v": 4,
     "cover": "",
     "url": null
   },
   "how should one read a book?|virginia woolf": {
-    "cover": "",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523310647834263/how-should-one-read-a-book-virginia-woolf?w=320",
     "url": "https://readwise.io/books/9781786277527/"
   },
   "the coaching habit: say less, ask more & change the way you lead forever|michael bungay stanier": {
-    "cover": "https://covers.openlibrary.org/b/id/12515817-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309839997485/the-coaching-habit-say-less-ask-more-and-change-the-way-you-lead-forever-michael-bungay-stanier?w=320",
     "url": "https://readwise.io/books/9780978440749/"
   },
   "what is chatgpt doing... and why does it work?|stephen wolfram": {
-    "cover": "https://covers.openlibrary.org/b/id/13746227-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523310441107549/what-is-chatgpt-doing-and-why-does-it-work-stephen-wolfram?w=320",
     "url": "https://readwise.io/books/9781579550813/"
   },
   "the left hand of darkness|ursula k. le guin": {
-    "cover": "https://covers.openlibrary.org/b/id/10618463-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/579250098800106614/the-left-hand-of-darkness-50th-anniversary-edition-ursula-k-le-guin?w=320",
     "url": "https://readwise.io/books/9781101665398/"
   },
   "after the ecstasy, the laundry: how the heart grows wise on the spiritual path|jack kornfield": {
-    "cover": "https://covers.openlibrary.org/b/id/368040-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309414935026/after-the-ecstasy-the-laundry-how-the-heart-grows-wise-on-the-spiritual-path-jack-kornfield?w=320",
     "url": "https://readwise.io/books/9780553378290/"
   },
   "anarchism: a very short introduction|alex prichard": {
-    "cover": "https://covers.openlibrary.org/b/id/13269075-M.jpg",
-    "url": "https://readwise.io/books/9781629639635/"
-  },
-  "cloud cuckoo land|anthony doerr": {
-    "cover": "https://covers.openlibrary.org/b/id/13253465-M.jpg",
-    "url": "https://readwise.io/books/9781982168452/"
-  },
-  "parable of the sower|octavia e. butler": {
-    "cover": "https://covers.openlibrary.org/b/id/10466266-M.jpg",
-    "url": "https://readwise.io/books/9781609807191/"
-  },
-  "managing to change the world: the nonprofit manager's guide to getting results|jerry hauser alison green": {
-    "cover": "https://covers.openlibrary.org/b/id/14494028-M.jpg",
-    "url": "https://readwise.io/books/9781118205921/"
-  },
-  "the ministry for the future|kim stanley robinson": {
-    "cover": "https://covers.openlibrary.org/b/id/10477770-M.jpg",
-    "url": "https://readwise.io/books/9780316300148/"
-  },
-  "maid: hard work, low pay, and a mother's will to survive|stephanie land": {
-    "cover": "https://covers.openlibrary.org/b/id/8356732-M.jpg",
-    "url": "https://readwise.io/books/9780316505109/"
-  },
-  "nonviolent communication: a language of life: life-changing tools for healthy relationships (nonviolent communication guides)|deepak chopra marshall b. rosenberg": {
-    "cover": "https://covers.openlibrary.org/b/id/940686-M.jpg",
-    "url": "https://readwise.io/books/9781892005281/"
-  },
-  "digital zettelkasten: principles, methods, & examples|david kadavy": {
-    "cover": "https://covers.openlibrary.org/b/id/11421684-M.jpg",
-    "url": "https://readwise.io/books/9780578928098/"
-  },
-  "green mars|kim stanley robinson": {
-    "cover": "https://covers.openlibrary.org/b/id/372391-M.jpg",
-    "url": "https://readwise.io/books/9780593358849/"
-  },
-  "miracle and wonder: conversations with paul simon|malcolm gladwell": {
-    "cover": "https://covers.openlibrary.org/b/id/1235058-M.jpg",
-    "url": "https://readwise.io/books/9781708913687/"
-  },
-  "red mars|kim stanley robinson": {
-    "cover": "https://covers.openlibrary.org/b/id/382552-M.jpg",
-    "url": "https://readwise.io/books/9780593358825/"
-  },
-  "drug use for grown-ups: chasing liberty in the land of fear|carl l. hart": {
-    "cover": "https://covers.openlibrary.org/b/id/12369642-M.jpg",
-    "url": "https://readwise.io/books/9781101981665/"
-  },
-  "sister outsider: essays and speeches|audre lorde": {
-    "cover": "https://covers.openlibrary.org/b/id/10129207-M.jpg",
-    "url": "https://readwise.io/books/9780143134442/"
-  },
-  "war and peace|leo tolstoy": {
-    "cover": "https://covers.openlibrary.org/b/id/12621906-M.jpg",
-    "url": "https://readwise.io/books/9781524881993/"
-  },
-  "too high to fail: cannabis and the new green economic revolution|doug fine": {
-    "cover": "https://covers.openlibrary.org/b/id/8088947-M.jpg",
-    "url": "https://readwise.io/books/9781592407613/"
-  },
-  "how to take smart notes: one simple technique to boost writing, learning and thinking – for students, academics and nonfiction book writers|sönke ahrens": {
-    "cover": "https://covers.openlibrary.org/b/id/8362230-M.jpg",
-    "url": "https://readwise.io/books/9783982438801/"
-  },
-  "the doors of perception & heaven and hell|aldous huxley": {
-    "cover": "https://covers.openlibrary.org/b/id/39648-M.jpg",
-    "url": "https://readwise.io/books/9780061892820/"
-  },
-  "sapiens: a brief history of humankind|yuval noah harari": {
-    "cover": "https://covers.openlibrary.org/b/id/8634250-M.jpg",
-    "url": "https://readwise.io/books/9780063051331/"
-  },
-  "1984|george orwell": {
-    "cover": "https://covers.openlibrary.org/b/id/8745958-M.jpg",
-    "url": null
-  },
-  "the hobbit, or there and back again|j.r.r. tolkien": {
+    "v": 4,
     "cover": "",
     "url": null
   },
-  "brave new world|aldous huxley": {
-    "cover": "https://covers.openlibrary.org/b/id/8231823-M.jpg",
+  "cloud cuckoo land|anthony doerr": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/577209406099457412/cloud-cuckoo-land-a-novel-anthony-doerr?w=320",
+    "url": "https://readwise.io/books/9781982168452/"
+  },
+  "parable of the sower|octavia e. butler": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523310471363927/parable-of-the-sower-octavia-e-butler?w=320",
+    "url": "https://readwise.io/books/9781609807191/"
+  },
+  "managing to change the world: the nonprofit manager's guide to getting results|jerry hauser alison green": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/577314958351761377/managing-to-change-the-world-the-nonprofit-managers-guide-to-getting-results-alison-green-and-jerry-hauser?w=320",
+    "url": "https://readwise.io/books/9781118205921/"
+  },
+  "the ministry for the future|kim stanley robinson": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309177856884/the-ministry-for-the-future-kim-stanley-robinson?w=320",
+    "url": "https://readwise.io/books/9780316300148/"
+  },
+  "maid: hard work, low pay, and a mother's will to survive|stephanie land": {
+    "v": 4,
+    "cover": "",
     "url": null
   },
+  "nonviolent communication: a language of life: life-changing tools for healthy relationships (nonviolent communication guides)|deepak chopra marshall b. rosenberg": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523310753562017/nonviolent-communication-a-language-of-life-life-changing-tools-for-healthy-relationships-marshall-b-rosenberg?w=320",
+    "url": "https://readwise.io/books/9781892005281/"
+  },
+  "digital zettelkasten: principles, methods, & examples|david kadavy": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309440484834/digital-zettelkasten-principles-methods-examples-david-kadavy?w=320",
+    "url": "https://readwise.io/books/9780578928098/"
+  },
+  "green mars|kim stanley robinson": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309454915585/green-mars-kim-stanley-robinson?w=320",
+    "url": "https://readwise.io/books/9780593358849/"
+  },
+  "miracle and wonder: conversations with paul simon|malcolm gladwell": {
+    "v": 4,
+    "cover": "",
+    "url": null
+  },
+  "red mars|kim stanley robinson": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309454915561/red-mars-kim-stanley-robinson?w=320",
+    "url": "https://readwise.io/books/9780593358825/"
+  },
+  "drug use for grown-ups: chasing liberty in the land of fear|carl l. hart": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309963538401/drug-use-for-grown-ups-chasing-liberty-in-the-land-of-fear-carl-l-hart?w=320",
+    "url": "https://readwise.io/books/9781101981665/"
+  },
+  "sister outsider: essays and speeches|audre lorde": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309004691178/sister-outsider-essays-and-speeches-audre-lorde?w=320",
+    "url": "https://readwise.io/books/9780143134442/"
+  },
+  "war and peace|leo tolstoy": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/577068668153815625/war-and-peace-the-graphic-novel-leo-tolstoy?w=320",
+    "url": "https://readwise.io/books/9781524881993/"
+  },
+  "too high to fail: cannabis and the new green economic revolution|doug fine": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523310453964349/too-high-to-fail-cannabis-and-the-new-green-economic-revolution-doug-fine?w=320",
+    "url": "https://readwise.io/books/9781592407613/"
+  },
+  "how to take smart notes: one simple technique to boost writing, learning and thinking – for students, academics and nonfiction book writers|sönke ahrens": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523312843995537/how-to-take-smart-notes-one-simple-technique-to-boost-writing-learning-and-thinking-sonke-ahrens?w=320",
+    "url": "https://readwise.io/books/9783982438801/"
+  },
+  "the doors of perception & heaven and hell|aldous huxley": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576927929202471124/the-doors-of-perception-and-heaven-and-hell-aldous-huxley?w=320",
+    "url": "https://readwise.io/books/9780061892820/"
+  },
+  "sapiens: a brief history of humankind|yuval noah harari": {
+    "v": 4,
+    "cover": "",
+    "url": null
+  },
+  "1984|george orwell": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523310648307306/george-orwells-1984-the-graphic-novel-george-orwell?w=320",
+    "url": "https://readwise.io/books/9781786750570/"
+  },
+  "the hobbit, or there and back again|j.r.r. tolkien": {
+    "v": 4,
+    "cover": "",
+    "url": null
+  },
+  "override:https://readwise.io/books/9780547928227/": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309409484963/the-hobbit-or-there-and-back-again-j-r-r-tolkien?w=320"
+  },
+  "brave new world|aldous huxley": {
+    "v": 4,
+    "cover": "",
+    "url": null
+  },
+  "override:https://readwise.io/books/9780060850524/": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523308922407260/brave-new-world-aldous-huxley?w=320"
+  },
   "the hitchhiker’s guide to the galaxy|douglas adams": {
-    "cover": "https://covers.openlibrary.org/b/id/12986869-M.jpg",
-    "url": "https://readwise.io/books/9780330513081/"
+    "v": 4,
+    "cover": "",
+    "url": null
   },
   "the fellowship of the ring|j.r.r. tolkien": {
-    "cover": "https://covers.openlibrary.org/b/id/14627060-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309670077500/the-fellowship-of-the-ring-the-lord-of-the-rings-part-one-j-r-r-tolkien?w=320",
     "url": "https://readwise.io/books/9780808520764/"
   },
   "the old man and the sea|ernest hemingway": {
-    "cover": "https://covers.openlibrary.org/b/id/463307-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/577244589966147977/old-man-and-the-sea-ernest-hemingway?w=320",
     "url": "https://readwise.io/books/9781476770185/"
   },
   "the return of the king|j.r.r. tolkien": {
-    "cover": "https://covers.openlibrary.org/b/id/14627062-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576927929688530352/the-return-of-the-king-being-the-third-part-of-the-lord-of-the-rings-j-r-r-tolkien?w=320",
     "url": "https://readwise.io/books/9780547952048/"
   },
   "cat’s cradle|kurt vonnegut jr.": {
-    "cover": "https://covers.openlibrary.org/b/id/12709654-M.jpg",
-    "url": "https://readwise.io/books/9780062314352/"
+    "v": 4,
+    "cover": "",
+    "url": null
   },
   "the sun also rises|ernest hemingway": {
-    "cover": "https://covers.openlibrary.org/b/id/78741-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309546387249/the-sun-also-rises-the-authorized-edition-ernest-hemingway?w=320",
     "url": "https://readwise.io/books/9780684830513/"
   },
   "slaughterhouse-five|kurt vonnegut jr.": {
-    "cover": "https://covers.openlibrary.org/b/id/12727001-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523310470418090/slaughterhouse-five-kurt-vonnegut-and-ryan-north?w=320",
     "url": "https://readwise.io/books/9781608861354/"
   },
   "blue mars|kim stanley robinson": {
-    "cover": "https://covers.openlibrary.org/b/id/3818726-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309454915592/blue-mars-kim-stanley-robinson?w=320",
     "url": "https://readwise.io/books/9780593358856/"
   },
   "rock me on the water: 1974—the year los angeles transformed movies, music, television and politics|ronald brownstein": {
-    "cover": "https://covers.openlibrary.org/b/id/10899744-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523308924455960/rock-me-on-the-water-1974-the-year-los-angeles-transformed-movies-music-television-and-politics-ronald-brownstein?w=320",
     "url": "https://readwise.io/books/9780062899224/"
   },
   "hammer of the gods|stephen davis": {
-    "cover": "https://covers.openlibrary.org/b/id/823709-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523308923029817/hammer-of-the-gods-the-led-zeppelin-saga-stephen-davis?w=320",
     "url": "https://readwise.io/books/9780061473081/"
   },
   "the beatles anthology|the beatles": {
+    "v": 4,
     "cover": "https://covers.openlibrary.org/b/id/2356601-M.jpg",
-    "url": "https://readwise.io/books/9780793562893/"
+    "url": null
   },
   "fight club|chuck palahniuk": {
-    "cover": "https://covers.openlibrary.org/b/id/7890578-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309254596500/fight-club-chuck-palahniuk?w=320",
     "url": "https://readwise.io/books/9780393039764/"
   },
   "a briefer history of time|stephen w. hawking": {
-    "cover": "https://covers.openlibrary.org/b/id/1283677-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309414942201/a-briefer-history-of-time-the-science-classic-made-more-accessible-lucy-hawking-and-leonard-mlodinow?w=320",
     "url": "https://readwise.io/books/9780553385465/"
   },
   "animal farm|george orwell": {
-    "cover": "https://covers.openlibrary.org/b/id/11261770-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309313840977/animal-farm-a-fairy-story-george-orwell?w=320",
     "url": "https://readwise.io/books/9780452284241/"
   },
   "hamlet|william shakespeare": {
-    "cover": "https://covers.openlibrary.org/b/id/8281954-M.jpg",
-    "url": "https://readwise.io/books/9781539541370/"
+    "v": 4,
+    "cover": "",
+    "url": null
   },
   "the hunger games|suzanne collins": {
-    "cover": "https://covers.openlibrary.org/b/id/12646537-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523327074538851/the-hunger-games-suzanne-collins?w=320",
     "url": "https://readwise.io/books/9798212982115/"
   },
   "the autobiography of malcolm x|malcolm x": {
+    "v": 4,
     "cover": "https://covers.openlibrary.org/b/id/14875135-M.jpg",
     "url": null
   },
   "surely you're joking, mr. feynman!: adventures of a curious character|richard feynman": {
-    "cover": "https://covers.openlibrary.org/b/id/9274698-M.jpg",
-    "url": "https://readwise.io/books/9780393355628/"
-  },
-  "the stranger|albert camus": {
-    "cover": "https://covers.openlibrary.org/b/id/15070895-M.jpg",
+    "v": 4,
+    "cover": "",
     "url": null
   },
+  "the stranger|albert camus": {
+    "v": 4,
+    "cover": "",
+    "url": null
+  },
+  "override:https://readwise.io/books/9780679720201/": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309541276937/the-stranger-albert-camus?w=320"
+  },
   "ender’s game|orson scott card": {
-    "cover": "https://covers.openlibrary.org/b/id/12996033-M.jpg",
-    "url": "https://readwise.io/books/9781250773029/"
+    "v": 4,
+    "cover": "",
+    "url": null
   },
   "the giver|lois lowry": {
-    "cover": "https://covers.openlibrary.org/b/id/8352502-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309467916524/the-giver-lois-lowry?w=320",
     "url": "https://readwise.io/books/9780606359788/"
   },
   "fahrenheit 451|ray bradbury": {
-    "cover": "https://covers.openlibrary.org/b/id/12993656-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523310313230055/fahrenheit-451-ray-bradbury?w=320",
     "url": "https://readwise.io/books/9781451673319/"
   },
   "the grapes of wrath|john steinbeck": {
-    "cover": "https://covers.openlibrary.org/b/id/12715902-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309003557399/the-grapes-of-wrath-john-steinbeck?w=320",
     "url": "https://readwise.io/books/9780142000663/"
   },
   "why french is easy|benny lewis": {
+    "v": 4,
     "cover": "",
     "url": null
   },
   "the new new thing: a silicon valley story|michael lewis": {
-    "cover": "https://covers.openlibrary.org/b/id/809757-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309254904550/new-new-thing-a-silicon-valley-story-michael-lewis?w=320",
     "url": "https://readwise.io/books/9780393347814/"
   },
   "chop wood, carry water: the yoga of work|andrew taggart": {
-    "cover": "https://covers.openlibrary.org/b/id/10457966-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309736328834/chop-wood-carry-water-a-guide-to-finding-spiritual-fulfillment-in-everyday-life-rick-fields?w=320",
     "url": "https://readwise.io/books/9780874772098/"
   },
   "becoming a supple leopard|kelly starrett": {
-    "cover": "https://covers.openlibrary.org/b/id/7318487-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523310490157570/becoming-a-supple-leopard-2nd-edition-the-ultimate-guide-to-resolving-pain-preventing-injury-and-optimizing-athletic-performance-kelly-starrett-and-glen-cordoza?w=320",
     "url": "https://readwise.io/books/9781628600834/"
   },
   "the odyssey|homer": {
-    "cover": "https://covers.openlibrary.org/b/id/12474938-M.jpg",
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523310797598147/the-odyssey-homer?w=320",
     "url": "https://readwise.io/books/9781936041411/"
+  },
+  "override:https://readwise.io/books/9780813206462/": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309674763198/the-intellectual-life-its-spirit-conditions-methods-a-g-sertillanges?w=320"
+  },
+  "override:https://readwise.io/books/9780198850052/": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309060406788/buddhist-ethics-a-very-short-introduction-damien-keown?w=320"
+  },
+  "override:https://readwise.io/books/9780198815617/": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309060372353/anarchism-a-very-short-introduction-alex-prichard?w=320"
+  },
+  "override:https://readwise.io/books/9780316505116/": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309178061852/maid-hard-work-low-pay-and-a-mothers-will-to-survive-stepahnie-land?w=320"
+  },
+  "override:https://readwise.io/books/9780062316097/": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523308923872833/sapiens-a-brief-history-of-humankind-yuval-noah-harari?w=320"
+  },
+  "override:https://readwise.io/books/9780345391803/": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309206948539/the-hitchhikers-guide-to-the-galaxy-douglas-adams?w=320"
+  },
+  "override:https://readwise.io/books/9780385333481/": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309246890217/cats-cradle-kurt-vonnegut?w=320"
+  },
+  "override:https://readwise.io/books/9780743477123/": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309605033859/hamlet-william-shakespeare?w=320"
+  },
+  "override:https://readwise.io/books/9780393355628/": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523309254912364/surely-youre-joking-mr-feynman-adventures-of-a-curious-character-richard-p-feynman?w=320"
+  },
+  "override:https://readwise.io/books/9781250773029/": {
+    "v": 4,
+    "cover": "https://readwise.io/books/product/cover/576523310112329765/enders-game-orson-scott-card?w=320"
   }
 }

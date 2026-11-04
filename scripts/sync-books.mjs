@@ -54,60 +54,108 @@ function cleanAuthor(a) {
   return a.trim();
 }
 
-// --- 3. Cover + Readwise link lookup via Open Library ------------------------
+// --- 3. Readwise link + cover lookup --------------------------------------
 // Books imported from Goodreads often aren't attached to Readwise's catalog, so the
-// feed gives no link. Readwise resolves readwise.io/books/<ISBN>/ though, so we
-// find ISBNs on Open Library and keep the first one Readwise recognises.
+// feed gives no link or cover. Readwise resolves readwise.io/books/<ISBN>/, so we:
+//   1. ask Open Library for ISBNs of editions whose title matches ours,
+//   2. try each against Readwise and accept only a redirect whose slug matches the title,
+//   3. take the cover from that Readwise page (authoritative), falling back to
+//      Open Library's cover for the matching edition, verified to actually download.
+const UA = { 'User-Agent': 'romanalcocer.com books sync (+https://romanalcocer.com)' };
+
 async function lookup(title, author, cache) {
   const key = `${title}|${author}`.toLowerCase();
-  if (cache[key] && typeof cache[key] === 'object' && cache[key].url) return cache[key];
-  const short = title.split(/[:(–—]/)[0].trim();
-  let hit = await olSearch(title, author);
-  if (!hit.cover && short !== title && short.length > 3) hit = merge(hit, await olSearch(short, author));
-  if (!hit.cover && author) hit = merge(hit, await olSearch(short, ''));
-  const url = await readwiseUrl(hit.isbns, title, author);
-  const result = { cover: hit.cover, url };
+  if (cache[key] && cache[key].v === 4) return cache[key];
+  const short = shortTitle(title);
+  const full = titleWords(title);
+  const authorWords = titleWords(author);
+
+  let docs = await olSearch(title, author);
+  if (!docs.length && short !== title) docs = await olSearch(short, author);
+  if (!docs.length && author) docs = await olSearch(short, '');
+  // ISBNs from every result (the Readwise slug check below guards against wrong books);
+  // covers only from editions whose title matches ours.
+  const isbns = [...new Set(docs.flatMap((d) => d.isbn || []))].sort((a, b) => b.length - a.length).slice(0, 60);
+  docs = docs.filter((d) => matches(full, titleWords(d.title || '')));
+  const rw = await readwiseMatch(isbns, full, authorWords);
+  let cover = rw?.cover || '';
+  if (!cover) {
+    const ol = docs.find((d) => d.cover_i);
+    if (ol) cover = await verifyImage(`https://covers.openlibrary.org/b/id/${ol.cover_i}-M.jpg`);
+  }
+  const result = { v: 4, cover, url: rw?.url || null };
   cache[key] = result;
   return result;
 }
-function merge(a, b) { return { cover: a.cover || b.cover, isbns: [...new Set([...a.isbns, ...b.isbns])] }; }
+function shortTitle(t) { return t.split(/[:(–—]/)[0].trim(); }
+function titleWords(s) {
+  return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ')
+    .split(' ').filter((w) => w && !['the','a','an','and','of','for','with','your','to','in','on'].includes(w));
+}
+// want = our full title's words; got = candidate's words.
+// Accept when the candidate covers most of our title, or is wholly contained in it
+// (catalog titles often drop subtitles: "Becoming a Supple Leopard" vs our 12-word version).
+function matches(want, got) {
+  if (!want.length || !got.length) return false;
+  const hits = want.filter((w) => got.includes(w)).length;
+  const back = got.filter((w) => want.includes(w)).length;
+  if (hits / want.length >= 0.6 && back / got.length >= 0.5) return true;
+  return back === got.length && (got.length >= 2 || want.length <= 2);
+}
 async function olSearch(title, author) {
   const u = new URL('https://openlibrary.org/search.json');
   u.searchParams.set('title', title);
   if (author) u.searchParams.set('author', author.split(/[,&]| and /)[0]);
-  u.searchParams.set('limit', '6');
-  u.searchParams.set('fields', 'cover_i,title,isbn');
-  const out = { cover: '', isbns: [] };
+  u.searchParams.set('limit', '8');
+  u.searchParams.set('fields', 'cover_i,title,isbn,language');
   try {
-    const res = await fetch(u, { headers: { 'User-Agent': 'romanalcocer.com books sync' } });
+    const res = await fetch(u, { headers: UA });
     if (res.ok) {
       const d = await res.json();
+      // Prefer English editions so we don't get a German cover for a Murakami.
       const docs = d.docs || [];
-      const withCover = docs.find((x) => x.cover_i);
-      if (withCover) out.cover = `https://covers.openlibrary.org/b/id/${withCover.cover_i}-M.jpg`;
-      for (const doc of docs) for (const i of doc.isbn || []) out.isbns.push(i);
+      return [...docs.filter((x) => (x.language || []).includes('eng')), ...docs.filter((x) => !(x.language || []).includes('eng'))];
     }
   } catch (e) { console.warn('Open Library lookup failed for', title, e.message); }
-  return out;
+  return [];
 }
-async function readwiseUrl(isbns, title, author) {
-  // Prefer ISBN-13s; cap attempts so one book can't eat the whole run.
-  const sorted = [...new Set(isbns)].sort((a, b) => b.length - a.length).slice(0, 40);
-  const want = slugWords(`${author} ${title}`);
-  for (const isbn of sorted) {
+async function readwiseMatch(isbns, want, authorWords) {
+  for (const isbn of isbns) {
     try {
       const res = await fetch(`https://readwise.io/books/${isbn}/`, { method: 'HEAD', redirect: 'manual' });
       if (res.status !== 301 && res.status !== 302) continue;
-      // Sanity check: the redirect slug should share words with the title/author.
-      const got = slugWords(res.headers.get('location') || '');
-      const overlap = want.filter((w) => got.includes(w)).length;
-      if (overlap >= Math.min(2, want.length)) return `https://readwise.io/books/${isbn}/`;
+      const loc = res.headers.get('location') || '';
+      const slug = loc.split('/').filter(Boolean).slice(-2, -1)[0] || ''; // .../<id>/<author-title-slug>/<isbn>
+      const got = titleWords(slug.replace(/-/g, ' ')).filter((w) => !authorWords.includes(w));
+      if (!matches(want, got)) continue;
+      const cover = await readwiseCover(new URL(loc, 'https://readwise.io/').href);
+      return { url: `https://readwise.io/books/${isbn}/`, cover };
     } catch {}
   }
   return null;
 }
-function slugWords(s) {
-  return s.toLowerCase().normalize('NFD').replace(/[^a-z0-9]+/g, ' ').split(' ').filter((w) => w.length > 2 && !['the','and','for','with','your'].includes(w));
+async function readwiseCover(pageUrl) {
+  try {
+    const res = await fetch(pageUrl, { headers: UA });
+    if (!res.ok) return '';
+    const html = await res.text();
+    const m = html.match(/product\/cover\/\d+\/[a-z0-9-]+/i);
+    return m ? `https://readwise.io/books/${m[0]}?w=320` : '';
+  } catch { return ''; }
+}
+async function resolve(url) {
+  try {
+    const res = await fetch(url, { method: 'HEAD', redirect: 'manual' });
+    const loc = res.headers.get('location');
+    return loc ? new URL(loc, url).href : url;
+  } catch { return url; }
+}
+async function verifyImage(url) {
+  try {
+    const res = await fetch(url, { method: 'HEAD', headers: UA });
+    const len = Number(res.headers.get('content-length') || 0);
+    return res.ok && len > 1500 ? url : '';
+  } catch { return ''; }
 }
 
 // --- main ---------------------------------------------------------------------
@@ -129,6 +177,12 @@ for (const b of raw) {
     if (!cover && found.cover) { cover = found.cover; olHits++; }
     if (!url && found.url) { url = found.url; urlHits++; }
   }
+  const ov = overrides[b.id] || {};
+  if (ov.url && !ov.cover && !cover) {
+    const key = `override:${ov.url}`;
+    if (!cache[key]) cache[key] = { v: 4, cover: await readwiseCover(await resolve(ov.url)) };
+    cover = cache[key].cover || cover;
+  }
   out.push({
     id: b.id,
     title,
@@ -138,7 +192,7 @@ for (const b of raw) {
     rating: b.rating ? Math.round(b.rating) : null,
     review: b.review || null,
     url,
-    ...(overrides[b.id] || {}),
+    ...ov,
   });
 }
 
