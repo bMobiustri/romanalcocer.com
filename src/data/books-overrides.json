@@ -1,0 +1,35 @@
+{
+  "_comment": "Hand fixes by Readwise book id. Any of: url, cover, title, author. Overrides win over the sync.",
+  "3556182": {
+    "url": "https://readwise.io/books/9780451524935/"
+  },
+  "3556170": {
+    "url": "https://readwise.io/books/9780547928227/"
+  },
+  "3556167": {
+    "url": "https://readwise.io/books/9780060850524/"
+  },
+  "3555722": {
+    "url": "https://readwise.io/books/9780345350688/"
+  },
+  "3555673": {
+    "url": "https://readwise.io/books/9780345350688/"
+  },
+  "3555689": {
+    "url": "https://readwise.io/books/9780679720201/"
+  },
+  "3555994": {
+    "url": "https://readwise.io/books/9780307389831/"
+  },
+  "3555912": {
+    "url": "https://readwise.io/books/9780307423696/",
+    "title": "Siddhartha"
+  },
+  "3555471": {
+    "url": "https://readwise.io/books/9781628600834/",
+    "title": "Becoming a Supple Leopard"
+  },
+  "3547209": {
+    "url": "https://readwise.io/books/9781628600834/"
+  }
+}
